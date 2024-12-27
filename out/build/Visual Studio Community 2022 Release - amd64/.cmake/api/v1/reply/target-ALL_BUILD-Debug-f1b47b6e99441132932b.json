@@ -1,0 +1,46 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"C:/dev/axmol/3rdparty/lua/plainlua/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "luac::@98ee9c76c2e53d04c1ec"
+		},
+		{
+			"id" : "plainlua::@98ee9c76c2e53d04c1ec"
+		},
+		{
+			"id" : "lua::@98ee9c76c2e53d04c1ec"
+		},
+		{
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+		}
+	],
+	"folder" : 
+	{
+		"name" : "CMakePredefinedTargets"
+	},
+	"id" : "ALL_BUILD::@98ee9c76c2e53d04c1ec",
+	"isGeneratorProvided" : true,
+	"name" : "ALL_BUILD",
+	"paths" : 
+	{
+		"build" : "engine/3rdparty/lua/plainlua",
+		"source" : "C:/dev/axmol/3rdparty/lua/plainlua"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

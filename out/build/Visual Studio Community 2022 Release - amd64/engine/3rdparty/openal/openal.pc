@@ -1,0 +1,12 @@
+prefix=D:/DEV Game/FreeFlow/out/install/Visual Studio Community 2022 Release - amd64
+exec_prefix=${prefix}
+libdir=D:/DEV Game/FreeFlow/out/install/Visual Studio Community 2022 Release - amd64/lib
+includedir=D:/DEV Game/FreeFlow/out/install/Visual Studio Community 2022 Release - amd64/include
+
+Name: OpenAL
+Description: OpenAL is a cross-platform 3D audio API
+Requires: 
+Version: 1.23.1
+Libs: -L${libdir} -lOpenAL32 
+Libs.private:
+Cflags: -I${includedir} -I${includedir}/AL 

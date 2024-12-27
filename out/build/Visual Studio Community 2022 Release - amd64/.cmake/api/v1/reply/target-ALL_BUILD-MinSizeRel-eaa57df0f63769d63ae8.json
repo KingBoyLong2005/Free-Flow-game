@@ -1,0 +1,166 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"C:/dev/axmol/core/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "axmol::@bf69472f26d8c3f79a15"
+		},
+		{
+			"id" : "fmt::@172b82096f85eddb0020"
+		},
+		{
+			"id" : "websocket-parser::@7dd8a899c4dcd334c423"
+		},
+		{
+			"id" : "chipmunk::@e030cd6fde125c56595a"
+		},
+		{
+			"id" : "png::@36cc07a3e1ba7c2bde31"
+		},
+		{
+			"id" : "box2d::@5b8e16bb6bf48d305e92"
+		},
+		{
+			"id" : "bullet::@067658e0fbb0fb148693"
+		},
+		{
+			"id" : "freetype::@b20ff8c2dc78e0658ee3"
+		},
+		{
+			"id" : "recast::@daa12a0718eb5667b377"
+		},
+		{
+			"id" : "pugixml::@a71f8eacd2382805b307"
+		},
+		{
+			"id" : "fastlz::@d215ee184e8bbb0fbbe4"
+		},
+		{
+			"id" : "webp::@c74d47a8972f79274125"
+		},
+		{
+			"id" : "xxhash::@756c2fb412866390bb07"
+		},
+		{
+			"id" : "ConvertUTF::@8ef87820ac91d1b1aaab"
+		},
+		{
+			"id" : "clipper2::@3fd6c85fdb7182944ebd"
+		},
+		{
+			"id" : "poly2tri::@078c79c6faf9714b8627"
+		},
+		{
+			"id" : "tolua::@73310b5a34b7997bbabb"
+		},
+		{
+			"id" : "luac::@98ee9c76c2e53d04c1ec"
+		},
+		{
+			"id" : "astcenc::@730cd7a4979c4081e0bb"
+		},
+		{
+			"id" : "plainlua::@98ee9c76c2e53d04c1ec"
+		},
+		{
+			"id" : "lua::@98ee9c76c2e53d04c1ec"
+		},
+		{
+			"id" : "lua-cjson::@c21850963483ce16ab32"
+		},
+		{
+			"id" : "ogg::@6fb0191cdcece2d50006"
+		},
+		{
+			"id" : "glad::@b0b000e275056f88e885"
+		},
+		{
+			"id" : "glfw::@5aec3c3994f13e9ca945"
+		},
+		{
+			"id" : "unzip::@6d5ba6f3a180a514ac31"
+		},
+		{
+			"id" : "llhttp::@c4737d653051f9356e20"
+		},
+		{
+			"id" : "simdjson::@bfa1e1ea590cf53af7d7"
+		},
+		{
+			"id" : "yasio::@a7174f46b4b9a2b4a7bf"
+		},
+		{
+			"id" : "doctest::@980becde4e1425f521f4"
+		},
+		{
+			"id" : "GUI::@c83b264aaa1ba36fccf5"
+		},
+		{
+			"id" : "assets-manager::@9dcd82ccb90758d64515"
+		},
+		{
+			"id" : "particle3d::@6723bbaaff3124d2c47d"
+		},
+		{
+			"id" : "fairygui::@f06704b5f80aeca1aefb"
+		},
+		{
+			"id" : "DragonBones::@10d352b61c57d6d47c94"
+		},
+		{
+			"id" : "spine::@25f68d044ed9243d3c7c"
+		},
+		{
+			"id" : "physics-nodes::@74d1a12157aa0bc3fb31"
+		},
+		{
+			"id" : "Inspector::@2394cd5c82b431a09147"
+		},
+		{
+			"id" : "ImGui::@d0e2a35dca395913b7fc"
+		},
+		{
+			"id" : "SDFGen::@7666503695ed4edf3091"
+		},
+		{
+			"id" : "axlua::@04afe047421f8d35c5b0"
+		},
+		{
+			"id" : "cocostudio::@60c66ce02398592d0763"
+		},
+		{
+			"id" : "JSONDefault::@25c6db9f7dafab02d272"
+		},
+		{
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+		}
+	],
+	"folder" : 
+	{
+		"name" : "CMakePredefinedTargets"
+	},
+	"id" : "ALL_BUILD::@bf69472f26d8c3f79a15",
+	"isGeneratorProvided" : true,
+	"name" : "ALL_BUILD",
+	"paths" : 
+	{
+		"build" : "engine/axmol/core",
+		"source" : "C:/dev/axmol/core"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

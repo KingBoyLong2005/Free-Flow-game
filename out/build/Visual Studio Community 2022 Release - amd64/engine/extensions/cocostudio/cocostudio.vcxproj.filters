@@ -1,0 +1,687 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\ActionFrame.cpp">
+      <Filter>Source Files\src\cocostudio</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\ActionFrameEasing.cpp">
+      <Filter>Source Files\src\cocostudio</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\ActionManagerEx.cpp">
+      <Filter>Source Files\src\cocostudio</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\ActionNode.cpp">
+      <Filter>Source Files\src\cocostudio</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\ActionObject.cpp">
+      <Filter>Source Files\src\cocostudio</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\ActionTimeline\ActionTimeline.cpp">
+      <Filter>Source Files\src\cocostudio\ActionTimeline</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\ActionTimeline\ActionTimelineCache.cpp">
+      <Filter>Source Files\src\cocostudio\ActionTimeline</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\ActionTimeline\ActionTimelineData.cpp">
+      <Filter>Source Files\src\cocostudio\ActionTimeline</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\ActionTimeline\ActionTimelineNode.cpp">
+      <Filter>Source Files\src\cocostudio\ActionTimeline</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\ActionTimeline\BoneNode.cpp">
+      <Filter>Source Files\src\cocostudio\ActionTimeline</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\ActionTimeline\CSLoader.cpp">
+      <Filter>Source Files\src\cocostudio\ActionTimeline</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\ActionTimeline\Frame.cpp">
+      <Filter>Source Files\src\cocostudio\ActionTimeline</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\ActionTimeline\SkeletonNode.cpp">
+      <Filter>Source Files\src\cocostudio\ActionTimeline</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\ActionTimeline\SkinNode.cpp">
+      <Filter>Source Files\src\cocostudio\ActionTimeline</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\ActionTimeline\TimeLine.cpp">
+      <Filter>Source Files\src\cocostudio\ActionTimeline</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\Armature.cpp">
+      <Filter>Source Files\src\cocostudio</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\ArmatureAnimation.cpp">
+      <Filter>Source Files\src\cocostudio</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\ArmatureDataManager.cpp">
+      <Filter>Source Files\src\cocostudio</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\ArmatureDefine.cpp">
+      <Filter>Source Files\src\cocostudio</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\BatchNode.cpp">
+      <Filter>Source Files\src\cocostudio</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\Bone.cpp">
+      <Filter>Source Files\src\cocostudio</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\CocoLoader.cpp">
+      <Filter>Source Files\src\cocostudio</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\CocoStudio.cpp">
+      <Filter>Source Files\src\cocostudio</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\CocosStudioExtension.cpp">
+      <Filter>Source Files\src\cocostudio</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\ColliderDetector.cpp">
+      <Filter>Source Files\src\cocostudio</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\ComAttribute.cpp">
+      <Filter>Source Files\src\cocostudio</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\ComAudio.cpp">
+      <Filter>Source Files\src\cocostudio</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\ComController.cpp">
+      <Filter>Source Files\src\cocostudio</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\ComExtensionData.cpp">
+      <Filter>Source Files\src\cocostudio</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\ComRender.cpp">
+      <Filter>Source Files\src\cocostudio</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\DataReaderHelper.cpp">
+      <Filter>Source Files\src\cocostudio</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\Datas.cpp">
+      <Filter>Source Files\src\cocostudio</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\DecorativeDisplay.cpp">
+      <Filter>Source Files\src\cocostudio</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\DictionaryHelper.cpp">
+      <Filter>Source Files\src\cocostudio</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\DisplayFactory.cpp">
+      <Filter>Source Files\src\cocostudio</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\DisplayManager.cpp">
+      <Filter>Source Files\src\cocostudio</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\FlatBuffersSerialize.cpp">
+      <Filter>Source Files\src\cocostudio</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\InputDelegate.cpp">
+      <Filter>Source Files\src\cocostudio</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\LocalizationManager.cpp">
+      <Filter>Source Files\src\cocostudio</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\ProcessBase.cpp">
+      <Filter>Source Files\src\cocostudio</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\SGUIReader.cpp">
+      <Filter>Source Files\src\cocostudio</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\SSceneReader.cpp">
+      <Filter>Source Files\src\cocostudio</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\Skin.cpp">
+      <Filter>Source Files\src\cocostudio</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\SpineSkeletonDataCache.cpp">
+      <Filter>Source Files\src\cocostudio</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\SpriteFrameCacheHelper.cpp">
+      <Filter>Source Files\src\cocostudio</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\TransformHelp.cpp">
+      <Filter>Source Files\src\cocostudio</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\TriggerBase.cpp">
+      <Filter>Source Files\src\cocostudio</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\TriggerMng.cpp">
+      <Filter>Source Files\src\cocostudio</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\TriggerObj.cpp">
+      <Filter>Source Files\src\cocostudio</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\Tween.cpp">
+      <Filter>Source Files\src\cocostudio</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\WidgetCallBackHandlerProtocol.cpp">
+      <Filter>Source Files\src\cocostudio</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\ArmatureNodeReader\ArmatureNodeReader.cpp">
+      <Filter>Source Files\src\cocostudio\WidgetReader\ArmatureNodeReader</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\ButtonReader\ButtonReader.cpp">
+      <Filter>Source Files\src\cocostudio\WidgetReader\ButtonReader</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\CheckBoxReader\CheckBoxReader.cpp">
+      <Filter>Source Files\src\cocostudio\WidgetReader\CheckBoxReader</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\ComAudioReader\ComAudioReader.cpp">
+      <Filter>Source Files\src\cocostudio\WidgetReader\ComAudioReader</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\GameMapReader\GameMapReader.cpp">
+      <Filter>Source Files\src\cocostudio\WidgetReader\GameMapReader</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\GameNode3DReader\GameNode3DReader.cpp">
+      <Filter>Source Files\src\cocostudio\WidgetReader\GameNode3DReader</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\ImageViewReader\ImageViewReader.cpp">
+      <Filter>Source Files\src\cocostudio\WidgetReader\ImageViewReader</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\LayoutReader\LayoutReader.cpp">
+      <Filter>Source Files\src\cocostudio\WidgetReader\LayoutReader</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\Light3DReader\Light3DReader.cpp">
+      <Filter>Source Files\src\cocostudio\WidgetReader\Light3DReader</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\ListViewReader\ListViewReader.cpp">
+      <Filter>Source Files\src\cocostudio\WidgetReader\ListViewReader</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\LoadingBarReader\LoadingBarReader.cpp">
+      <Filter>Source Files\src\cocostudio\WidgetReader\LoadingBarReader</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\MeshReader\MeshReader.cpp">
+      <Filter>Source Files\src\cocostudio\WidgetReader\MeshReader</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\Node3DReader\Node3DReader.cpp">
+      <Filter>Source Files\src\cocostudio\WidgetReader\Node3DReader</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\NodeReader\NodeReader.cpp">
+      <Filter>Source Files\src\cocostudio\WidgetReader\NodeReader</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\NodeReaderProtocol.cpp">
+      <Filter>Source Files\src\cocostudio\WidgetReader</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\PageViewReader\PageViewReader.cpp">
+      <Filter>Source Files\src\cocostudio\WidgetReader\PageViewReader</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\Particle3DReader\Particle3DReader.cpp">
+      <Filter>Source Files\src\cocostudio\WidgetReader\Particle3DReader</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\ParticleReader\ParticleReader.cpp">
+      <Filter>Source Files\src\cocostudio\WidgetReader\ParticleReader</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\ProjectNodeReader\ProjectNodeReader.cpp">
+      <Filter>Source Files\src\cocostudio\WidgetReader\ProjectNodeReader</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\RadioButtonReader\RadioButtonGroupReader.cpp">
+      <Filter>Source Files\src\cocostudio\WidgetReader\RadioButtonReader</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\RadioButtonReader\RadioButtonReader.cpp">
+      <Filter>Source Files\src\cocostudio\WidgetReader\RadioButtonReader</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\RichTextReader\RichTextReader.cpp">
+      <Filter>Source Files\src\cocostudio\WidgetReader\RichTextReader</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\ScrollViewReader\ScrollViewReader.cpp">
+      <Filter>Source Files\src\cocostudio\WidgetReader\ScrollViewReader</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\SingleNodeReader\SingleNodeReader.cpp">
+      <Filter>Source Files\src\cocostudio\WidgetReader\SingleNodeReader</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\SkeletonReader\BoneNodeReader.cpp">
+      <Filter>Source Files\src\cocostudio\WidgetReader\SkeletonReader</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\SkeletonReader\SkeletonNodeReader.cpp">
+      <Filter>Source Files\src\cocostudio\WidgetReader\SkeletonReader</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\SliderReader\SliderReader.cpp">
+      <Filter>Source Files\src\cocostudio\WidgetReader\SliderReader</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\SpineSkeletonReader\SpineSkeletonReader.cpp">
+      <Filter>Source Files\src\cocostudio\WidgetReader\SpineSkeletonReader</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\SpriteReader\SpriteReader.cpp">
+      <Filter>Source Files\src\cocostudio\WidgetReader\SpriteReader</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\TabControlReader\TabControlReader.cpp">
+      <Filter>Source Files\src\cocostudio\WidgetReader\TabControlReader</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\TextAtlasReader\TextAtlasReader.cpp">
+      <Filter>Source Files\src\cocostudio\WidgetReader\TextAtlasReader</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\TextBMFontReader\TextBMFontReader.cpp">
+      <Filter>Source Files\src\cocostudio\WidgetReader\TextBMFontReader</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\TextFieldReader\TextFieldExReader.cpp">
+      <Filter>Source Files\src\cocostudio\WidgetReader\TextFieldReader</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\TextFieldReader\TextFieldReader.cpp">
+      <Filter>Source Files\src\cocostudio\WidgetReader\TextFieldReader</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\TextReader\TextReader.cpp">
+      <Filter>Source Files\src\cocostudio\WidgetReader\TextReader</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\UserCameraReader\UserCameraReader.cpp">
+      <Filter>Source Files\src\cocostudio\WidgetReader\UserCameraReader</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\WidgetReader.cpp">
+      <Filter>Source Files\src\cocostudio\WidgetReader</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\WidgetReaderProtocol.cpp">
+      <Filter>Source Files\src\cocostudio\WidgetReader</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\ActionFrame.h">
+      <Filter>Source Files\src\cocostudio</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\ActionFrameEasing.h">
+      <Filter>Source Files\src\cocostudio</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\ActionManagerEx.h">
+      <Filter>Source Files\src\cocostudio</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\ActionNode.h">
+      <Filter>Source Files\src\cocostudio</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\ActionObject.h">
+      <Filter>Source Files\src\cocostudio</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\ActionTimeline\ActionTimeline.h">
+      <Filter>Source Files\src\cocostudio\ActionTimeline</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\ActionTimeline\ActionTimelineCache.h">
+      <Filter>Source Files\src\cocostudio\ActionTimeline</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\ActionTimeline\ActionTimelineData.h">
+      <Filter>Source Files\src\cocostudio\ActionTimeline</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\ActionTimeline\ActionTimelineNode.h">
+      <Filter>Source Files\src\cocostudio\ActionTimeline</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\ActionTimeline\BoneNode.h">
+      <Filter>Source Files\src\cocostudio\ActionTimeline</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\ActionTimeline\CSLoader.h">
+      <Filter>Source Files\src\cocostudio\ActionTimeline</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\ActionTimeline\Frame.h">
+      <Filter>Source Files\src\cocostudio\ActionTimeline</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\ActionTimeline\SkeletonNode.h">
+      <Filter>Source Files\src\cocostudio\ActionTimeline</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\ActionTimeline\SkinNode.h">
+      <Filter>Source Files\src\cocostudio\ActionTimeline</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\ActionTimeline\TimeLine.h">
+      <Filter>Source Files\src\cocostudio\ActionTimeline</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\ActionTimeline\TimelineMacro.h">
+      <Filter>Source Files\src\cocostudio\ActionTimeline</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\Armature.h">
+      <Filter>Source Files\src\cocostudio</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\ArmatureAnimation.h">
+      <Filter>Source Files\src\cocostudio</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\ArmatureDataManager.h">
+      <Filter>Source Files\src\cocostudio</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\ArmatureDefine.h">
+      <Filter>Source Files\src\cocostudio</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\BatchNode.h">
+      <Filter>Source Files\src\cocostudio</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\Bone.h">
+      <Filter>Source Files\src\cocostudio</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\CSLanguageDataBinary_generated.h">
+      <Filter>Source Files\src\cocostudio</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\CSParse3DBinary_generated.h">
+      <Filter>Source Files\src\cocostudio</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\CSParseBinary_generated.h">
+      <Filter>Source Files\src\cocostudio</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\CocoLoader.h">
+      <Filter>Source Files\src\cocostudio</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\CocoStudio.h">
+      <Filter>Source Files\src\cocostudio</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\CocosStudioExport.h">
+      <Filter>Source Files\src\cocostudio</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\CocosStudioExtension.h">
+      <Filter>Source Files\src\cocostudio</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\ColliderDetector.h">
+      <Filter>Source Files\src\cocostudio</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\ComAttribute.h">
+      <Filter>Source Files\src\cocostudio</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\ComAudio.h">
+      <Filter>Source Files\src\cocostudio</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\ComBase.h">
+      <Filter>Source Files\src\cocostudio</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\ComController.h">
+      <Filter>Source Files\src\cocostudio</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\ComExtensionData.h">
+      <Filter>Source Files\src\cocostudio</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\ComRender.h">
+      <Filter>Source Files\src\cocostudio</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\DataReaderHelper.h">
+      <Filter>Source Files\src\cocostudio</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\Datas.h">
+      <Filter>Source Files\src\cocostudio</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\DecorativeDisplay.h">
+      <Filter>Source Files\src\cocostudio</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\DictionaryHelper.h">
+      <Filter>Source Files\src\cocostudio</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\DisplayFactory.h">
+      <Filter>Source Files\src\cocostudio</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\DisplayManager.h">
+      <Filter>Source Files\src\cocostudio</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\FlatBuffersSerialize.h">
+      <Filter>Source Files\src\cocostudio</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\InputDelegate.h">
+      <Filter>Source Files\src\cocostudio</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\LocalizationManager.h">
+      <Filter>Source Files\src\cocostudio</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\ProcessBase.h">
+      <Filter>Source Files\src\cocostudio</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\SGUIReader.h">
+      <Filter>Source Files\src\cocostudio</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\SSceneReader.h">
+      <Filter>Source Files\src\cocostudio</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\Skin.h">
+      <Filter>Source Files\src\cocostudio</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\SpineSkeletonDataCache.h">
+      <Filter>Source Files\src\cocostudio</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\SpriteFrameCacheHelper.h">
+      <Filter>Source Files\src\cocostudio</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\TransformHelp.h">
+      <Filter>Source Files\src\cocostudio</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\TriggerBase.h">
+      <Filter>Source Files\src\cocostudio</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\TriggerMng.h">
+      <Filter>Source Files\src\cocostudio</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\TriggerObj.h">
+      <Filter>Source Files\src\cocostudio</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\Tween.h">
+      <Filter>Source Files\src\cocostudio</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\WidgetCallBackHandlerProtocol.h">
+      <Filter>Source Files\src\cocostudio</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\ArmatureNodeReader\ArmatureNodeReader.h">
+      <Filter>Source Files\src\cocostudio\WidgetReader\ArmatureNodeReader</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\ArmatureNodeReader\CSArmatureNode_generated.h">
+      <Filter>Source Files\src\cocostudio\WidgetReader\ArmatureNodeReader</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\ButtonReader\ButtonReader.h">
+      <Filter>Source Files\src\cocostudio\WidgetReader\ButtonReader</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\CheckBoxReader\CheckBoxReader.h">
+      <Filter>Source Files\src\cocostudio\WidgetReader\CheckBoxReader</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\ComAudioReader\ComAudioReader.h">
+      <Filter>Source Files\src\cocostudio\WidgetReader\ComAudioReader</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\GameMapReader\GameMapReader.h">
+      <Filter>Source Files\src\cocostudio\WidgetReader\GameMapReader</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\GameNode3DReader\GameNode3DReader.h">
+      <Filter>Source Files\src\cocostudio\WidgetReader\GameNode3DReader</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\ImageViewReader\ImageViewReader.h">
+      <Filter>Source Files\src\cocostudio\WidgetReader\ImageViewReader</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\LayoutReader\LayoutReader.h">
+      <Filter>Source Files\src\cocostudio\WidgetReader\LayoutReader</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\Light3DReader\Light3DReader.h">
+      <Filter>Source Files\src\cocostudio\WidgetReader\Light3DReader</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\ListViewReader\ListViewReader.h">
+      <Filter>Source Files\src\cocostudio\WidgetReader\ListViewReader</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\LoadingBarReader\LoadingBarReader.h">
+      <Filter>Source Files\src\cocostudio\WidgetReader\LoadingBarReader</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\MeshReader\MeshReader.h">
+      <Filter>Source Files\src\cocostudio\WidgetReader\MeshReader</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\Node3DReader\Node3DReader.h">
+      <Filter>Source Files\src\cocostudio\WidgetReader\Node3DReader</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\NodeReader\NodeReader.h">
+      <Filter>Source Files\src\cocostudio\WidgetReader\NodeReader</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\NodeReaderDefine.h">
+      <Filter>Source Files\src\cocostudio\WidgetReader</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\NodeReaderProtocol.h">
+      <Filter>Source Files\src\cocostudio\WidgetReader</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\PageViewReader\PageViewReader.h">
+      <Filter>Source Files\src\cocostudio\WidgetReader\PageViewReader</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\Particle3DReader\Particle3DReader.h">
+      <Filter>Source Files\src\cocostudio\WidgetReader\Particle3DReader</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\ParticleReader\ParticleReader.h">
+      <Filter>Source Files\src\cocostudio\WidgetReader\ParticleReader</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\ProjectNodeReader\ProjectNodeReader.h">
+      <Filter>Source Files\src\cocostudio\WidgetReader\ProjectNodeReader</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\RadioButtonReader\RadioButtonGroupReader.h">
+      <Filter>Source Files\src\cocostudio\WidgetReader\RadioButtonReader</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\RadioButtonReader\RadioButtonReader.h">
+      <Filter>Source Files\src\cocostudio\WidgetReader\RadioButtonReader</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\RichTextReader\RichTextReader.h">
+      <Filter>Source Files\src\cocostudio\WidgetReader\RichTextReader</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\ScrollViewReader\ScrollViewReader.h">
+      <Filter>Source Files\src\cocostudio\WidgetReader\ScrollViewReader</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\SingleNodeReader\SingleNodeReader.h">
+      <Filter>Source Files\src\cocostudio\WidgetReader\SingleNodeReader</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\SkeletonReader\BoneNodeReader.h">
+      <Filter>Source Files\src\cocostudio\WidgetReader\SkeletonReader</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\SkeletonReader\CSBoneBinary_generated.h">
+      <Filter>Source Files\src\cocostudio\WidgetReader\SkeletonReader</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\SkeletonReader\SkeletonNodeReader.h">
+      <Filter>Source Files\src\cocostudio\WidgetReader\SkeletonReader</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\SliderReader\SliderReader.h">
+      <Filter>Source Files\src\cocostudio\WidgetReader\SliderReader</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\SpineSkeletonReader\SpineSkeletonReader.h">
+      <Filter>Source Files\src\cocostudio\WidgetReader\SpineSkeletonReader</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\SpriteReader\SpriteReader.h">
+      <Filter>Source Files\src\cocostudio\WidgetReader\SpriteReader</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\TabControlReader\CSTabControl_generated.h">
+      <Filter>Source Files\src\cocostudio\WidgetReader\TabControlReader</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\TabControlReader\TabControlReader.h">
+      <Filter>Source Files\src\cocostudio\WidgetReader\TabControlReader</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\TextAtlasReader\TextAtlasReader.h">
+      <Filter>Source Files\src\cocostudio\WidgetReader\TextAtlasReader</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\TextBMFontReader\TextBMFontReader.h">
+      <Filter>Source Files\src\cocostudio\WidgetReader\TextBMFontReader</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\TextFieldReader\TextFieldExReader.h">
+      <Filter>Source Files\src\cocostudio\WidgetReader\TextFieldReader</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\TextFieldReader\TextFieldReader.h">
+      <Filter>Source Files\src\cocostudio\WidgetReader\TextFieldReader</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\TextReader\TextReader.h">
+      <Filter>Source Files\src\cocostudio\WidgetReader\TextReader</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\UserCameraReader\UserCameraReader.h">
+      <Filter>Source Files\src\cocostudio\WidgetReader\UserCameraReader</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\WidgetReader.h">
+      <Filter>Source Files\src\cocostudio\WidgetReader</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\WidgetReaderProtocol.h">
+      <Filter>Source Files\src\cocostudio\WidgetReader</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\dev\axmol\extensions\cocostudio\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{E3D90C80-D58F-332D-8095-D0A32B0C215C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\src">
+      <UniqueIdentifier>{25199533-0F74-32D3-A91A-BBA4DF7A64D6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\src\cocostudio">
+      <UniqueIdentifier>{05900306-8AE3-3EF4-92C1-8DB5B30C28CF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\src\cocostudio\ActionTimeline">
+      <UniqueIdentifier>{2FB8BA5B-92D0-3BC7-A04F-437908429A39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\src\cocostudio\WidgetReader">
+      <UniqueIdentifier>{577F81AD-7D6E-3379-8E58-D9FBEA181BA3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\src\cocostudio\WidgetReader\ArmatureNodeReader">
+      <UniqueIdentifier>{24B99C36-084B-3BC2-9768-B1DE8FEBFC37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\src\cocostudio\WidgetReader\ButtonReader">
+      <UniqueIdentifier>{4E6CA042-8B73-39AB-B5A0-FBD6E4E4AA09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\src\cocostudio\WidgetReader\CheckBoxReader">
+      <UniqueIdentifier>{BC858D9D-9958-3A84-B562-489D5CF8E11F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\src\cocostudio\WidgetReader\ComAudioReader">
+      <UniqueIdentifier>{D944E697-EA88-3569-82B4-B0D46B20A16A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\src\cocostudio\WidgetReader\GameMapReader">
+      <UniqueIdentifier>{B1324A7C-CA7E-36F9-83CE-556774E75137}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\src\cocostudio\WidgetReader\GameNode3DReader">
+      <UniqueIdentifier>{093308D3-2148-3181-999E-4EA996E524FD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\src\cocostudio\WidgetReader\ImageViewReader">
+      <UniqueIdentifier>{4F0D402C-2CEE-343D-84F7-3C4822691599}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\src\cocostudio\WidgetReader\LayoutReader">
+      <UniqueIdentifier>{37ADDA8C-3D12-3479-AF6B-6B248856D25F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\src\cocostudio\WidgetReader\Light3DReader">
+      <UniqueIdentifier>{ACFF7413-5C38-3A50-96A8-8363634BD71A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\src\cocostudio\WidgetReader\ListViewReader">
+      <UniqueIdentifier>{A610F1D0-655D-3B30-94AE-99B049A78A0C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\src\cocostudio\WidgetReader\LoadingBarReader">
+      <UniqueIdentifier>{A278C278-A11F-3EE7-9426-3743B0DB1E5F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\src\cocostudio\WidgetReader\MeshReader">
+      <UniqueIdentifier>{4646A780-83D9-3FD0-9C9E-3484D2FEDB38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\src\cocostudio\WidgetReader\Node3DReader">
+      <UniqueIdentifier>{446D4BFC-1499-3E3D-B9B4-BD7FA5C5EF32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\src\cocostudio\WidgetReader\NodeReader">
+      <UniqueIdentifier>{3DDBF27F-4F61-3679-B8C6-E94D59846E1E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\src\cocostudio\WidgetReader\PageViewReader">
+      <UniqueIdentifier>{3FC0951A-7A22-3F33-9E3C-462BDA5B1225}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\src\cocostudio\WidgetReader\Particle3DReader">
+      <UniqueIdentifier>{9ACC4A04-915A-3CAC-AC34-700A6AECE1CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\src\cocostudio\WidgetReader\ParticleReader">
+      <UniqueIdentifier>{9D76E56A-12CC-3955-8D3D-E53741695848}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\src\cocostudio\WidgetReader\ProjectNodeReader">
+      <UniqueIdentifier>{C6345AC5-9278-335A-86A9-CF54A4BD88F7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\src\cocostudio\WidgetReader\RadioButtonReader">
+      <UniqueIdentifier>{F30E223E-13E7-3548-8CC2-DBF7590FA683}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\src\cocostudio\WidgetReader\RichTextReader">
+      <UniqueIdentifier>{6EC49D40-C1CE-3283-9E69-DA5ED6A25691}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\src\cocostudio\WidgetReader\ScrollViewReader">
+      <UniqueIdentifier>{6F9C5A75-41C4-367C-95FA-2CEB6AFD2420}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\src\cocostudio\WidgetReader\SingleNodeReader">
+      <UniqueIdentifier>{EA17EA4B-FFAF-39AA-8046-12EFF58C139E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\src\cocostudio\WidgetReader\SkeletonReader">
+      <UniqueIdentifier>{E6E0CE49-871B-368E-81E8-329B9B29302A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\src\cocostudio\WidgetReader\SliderReader">
+      <UniqueIdentifier>{08B209EA-BDF6-350D-9EE6-EF4ED747F7E4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\src\cocostudio\WidgetReader\SpineSkeletonReader">
+      <UniqueIdentifier>{CD47064A-4551-3E27-AB64-81B399744A12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\src\cocostudio\WidgetReader\SpriteReader">
+      <UniqueIdentifier>{E7FF4274-D108-37A2-8C25-DC320170B030}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\src\cocostudio\WidgetReader\TabControlReader">
+      <UniqueIdentifier>{5F9D7435-DA15-32EF-8B76-A6D0B4F9ADB2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\src\cocostudio\WidgetReader\TextAtlasReader">
+      <UniqueIdentifier>{432CCB72-2A40-34A3-9010-854D2AB79C58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\src\cocostudio\WidgetReader\TextBMFontReader">
+      <UniqueIdentifier>{D1322D0A-4157-30EE-9D98-03D5053F29EA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\src\cocostudio\WidgetReader\TextFieldReader">
+      <UniqueIdentifier>{8642843E-928C-3811-897A-ADB595AD3AE0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\src\cocostudio\WidgetReader\TextReader">
+      <UniqueIdentifier>{ADD16EB7-C248-3BD3-91AB-2BC4C6F24E9F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\src\cocostudio\WidgetReader\UserCameraReader">
+      <UniqueIdentifier>{0B224CEC-3532-3FC4-B4C4-2CA88875F52A}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

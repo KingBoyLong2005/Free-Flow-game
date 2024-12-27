@@ -1,0 +1,11 @@
+prefix=D:/DEV Game/FreeFlow/out/install/Visual Studio Community 2022 Release - amd64
+exec_prefix=D:/DEV Game/FreeFlow/out/install/Visual Studio Community 2022 Release - amd64
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: fmt
+Description: A modern formatting library
+Version: 11.0.2
+Libs: -L${libdir} -lfmt
+Cflags: -I${includedir}
+

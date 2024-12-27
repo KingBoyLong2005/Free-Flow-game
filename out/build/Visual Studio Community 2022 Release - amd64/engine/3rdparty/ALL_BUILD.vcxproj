@@ -1,0 +1,299 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ResolveNugetPackages>false</ResolveNugetPackages>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{2161C43D-32FD-320B-8092-4353194E1F0B}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+    <Import Project="D:\DEV Game\FreeFlow\out\build\Visual Studio Community 2022 Release - amd64\engine\3rdparty\ALL_BUILD.dir\nasm.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\dev\axmol\3rdparty\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/dev/axmol/3rdparty/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SD:/DEV Game/FreeFlow" "-BD:/DEV Game/FreeFlow/out/build/Visual Studio Community 2022 Release - amd64" --check-stamp-file "D:/DEV Game/FreeFlow/out/build/Visual Studio Community 2022 Release - amd64/engine/3rdparty/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CheckCCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CheckCSourceRuns.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CheckCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CheckFlagCommonConfig.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CheckSourceRuns.cmake;C:\dev\axmol\1k\fetch.cmake;C:\Program Files\CMake\share\cmake-3.31\Templates\MSBuild\nasm.props.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\DEV Game\FreeFlow\out\build\Visual Studio Community 2022 Release - amd64\engine\3rdparty\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/dev/axmol/3rdparty/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SD:/DEV Game/FreeFlow" "-BD:/DEV Game/FreeFlow/out/build/Visual Studio Community 2022 Release - amd64" --check-stamp-file "D:/DEV Game/FreeFlow/out/build/Visual Studio Community 2022 Release - amd64/engine/3rdparty/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CheckCCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CheckCSourceRuns.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CheckCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CheckFlagCommonConfig.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CheckSourceRuns.cmake;C:\dev\axmol\1k\fetch.cmake;C:\Program Files\CMake\share\cmake-3.31\Templates\MSBuild\nasm.props.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\DEV Game\FreeFlow\out\build\Visual Studio Community 2022 Release - amd64\engine\3rdparty\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/dev/axmol/3rdparty/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SD:/DEV Game/FreeFlow" "-BD:/DEV Game/FreeFlow/out/build/Visual Studio Community 2022 Release - amd64" --check-stamp-file "D:/DEV Game/FreeFlow/out/build/Visual Studio Community 2022 Release - amd64/engine/3rdparty/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CheckCCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CheckCSourceRuns.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CheckCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CheckFlagCommonConfig.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CheckSourceRuns.cmake;C:\dev\axmol\1k\fetch.cmake;C:\Program Files\CMake\share\cmake-3.31\Templates\MSBuild\nasm.props.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\DEV Game\FreeFlow\out\build\Visual Studio Community 2022 Release - amd64\engine\3rdparty\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/dev/axmol/3rdparty/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SD:/DEV Game/FreeFlow" "-BD:/DEV Game/FreeFlow/out/build/Visual Studio Community 2022 Release - amd64" --check-stamp-file "D:/DEV Game/FreeFlow/out/build/Visual Studio Community 2022 Release - amd64/engine/3rdparty/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CheckCCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CheckCSourceRuns.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CheckCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CheckFlagCommonConfig.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CheckSourceRuns.cmake;C:\dev\axmol\1k\fetch.cmake;C:\Program Files\CMake\share\cmake-3.31\Templates\MSBuild\nasm.props.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\DEV Game\FreeFlow\out\build\Visual Studio Community 2022 Release - amd64\engine\3rdparty\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="D:\DEV Game\FreeFlow\out\build\Visual Studio Community 2022 Release - amd64\ZERO_CHECK.vcxproj">
+      <Project>{D4B3CE9B-F76D-333C-AA31-E26C64738193}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\DEV Game\FreeFlow\out\build\Visual Studio Community 2022 Release - amd64\engine\3rdparty\ConvertUTF\ConvertUTF.vcxproj">
+      <Project>{EE20362A-98EA-36FB-9A45-5CC81975EA2F}</Project>
+      <Name>ConvertUTF</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\DEV Game\FreeFlow\out\build\Visual Studio Community 2022 Release - amd64\engine\3rdparty\astcenc\astcenc.vcxproj">
+      <Project>{7A6B2CA8-4225-32BA-8F9F-D7DA26FA1B90}</Project>
+      <Name>astcenc</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\DEV Game\FreeFlow\out\build\Visual Studio Community 2022 Release - amd64\engine\3rdparty\box2d\box2d.vcxproj">
+      <Project>{BE3FE606-5408-38B8-B2F2-DC736D36248E}</Project>
+      <Name>box2d</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\DEV Game\FreeFlow\out\build\Visual Studio Community 2022 Release - amd64\engine\3rdparty\bullet\bullet.vcxproj">
+      <Project>{2A92688B-0F17-35B1-8F49-EC12C151ABC0}</Project>
+      <Name>bullet</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\DEV Game\FreeFlow\out\build\Visual Studio Community 2022 Release - amd64\engine\3rdparty\chipmunk\src\chipmunk.vcxproj">
+      <Project>{FBE63C14-F563-3161-B9EC-CFC0B88A1BC6}</Project>
+      <Name>chipmunk</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\DEV Game\FreeFlow\out\build\Visual Studio Community 2022 Release - amd64\engine\3rdparty\clipper2\clipper2.vcxproj">
+      <Project>{EE2C66A3-B493-3E54-9BDF-028B6C2DF09E}</Project>
+      <Name>clipper2</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\DEV Game\FreeFlow\out\build\Visual Studio Community 2022 Release - amd64\engine\3rdparty\doctest\doctest.vcxproj">
+      <Project>{790421BC-F066-3D15-8ED4-3E5E2CC6602F}</Project>
+      <Name>doctest</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\DEV Game\FreeFlow\out\build\Visual Studio Community 2022 Release - amd64\engine\3rdparty\fastlz\fastlz.vcxproj">
+      <Project>{F130E96F-7A6C-3510-9A6E-E7BE2C879956}</Project>
+      <Name>fastlz</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\DEV Game\FreeFlow\out\build\Visual Studio Community 2022 Release - amd64\engine\3rdparty\fmt\fmt.vcxproj">
+      <Project>{1088B3DF-B68A-3955-A5CE-A488BFA095F8}</Project>
+      <Name>fmt</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\DEV Game\FreeFlow\out\build\Visual Studio Community 2022 Release - amd64\engine\3rdparty\freetype\freetype.vcxproj">
+      <Project>{6CB44F80-F2C3-307B-9568-6646991733A0}</Project>
+      <Name>freetype</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\DEV Game\FreeFlow\out\build\Visual Studio Community 2022 Release - amd64\engine\3rdparty\glad\glad.vcxproj">
+      <Project>{3C27D0F0-67CE-36D7-B33C-8441E163E221}</Project>
+      <Name>glad</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\DEV Game\FreeFlow\out\build\Visual Studio Community 2022 Release - amd64\engine\3rdparty\glfw\src\glfw.vcxproj">
+      <Project>{B5BBD0F6-CE20-3289-8C9E-53AF945971C8}</Project>
+      <Name>glfw</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\DEV Game\FreeFlow\out\build\Visual Studio Community 2022 Release - amd64\engine\3rdparty\llhttp\llhttp.vcxproj">
+      <Project>{F3AB7071-5708-34CE-BBBE-8FBCA008FDBA}</Project>
+      <Name>llhttp</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\DEV Game\FreeFlow\out\build\Visual Studio Community 2022 Release - amd64\engine\3rdparty\lua\plainlua\lua.vcxproj">
+      <Project>{C4EA4ED4-3697-31E2-835F-DF516D0E85C2}</Project>
+      <Name>lua</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\DEV Game\FreeFlow\out\build\Visual Studio Community 2022 Release - amd64\engine\3rdparty\lua\lua-cjson\lua-cjson.vcxproj">
+      <Project>{FEBF39B5-5390-35E8-A27F-5EC6ECFCBE6C}</Project>
+      <Name>lua-cjson</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\DEV Game\FreeFlow\out\build\Visual Studio Community 2022 Release - amd64\engine\3rdparty\lua\plainlua\luac.vcxproj">
+      <Project>{46298AC2-C3E3-363F-A7DA-7259470BC001}</Project>
+      <Name>luac</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\DEV Game\FreeFlow\out\build\Visual Studio Community 2022 Release - amd64\engine\3rdparty\ogg\ogg.vcxproj">
+      <Project>{D0B5108A-FF07-3B7E-A19E-9F634A4F2543}</Project>
+      <Name>ogg</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\DEV Game\FreeFlow\out\build\Visual Studio Community 2022 Release - amd64\engine\3rdparty\lua\plainlua\plainlua.vcxproj">
+      <Project>{A5FA5F04-E002-3310-A2BB-C538D7EB85A0}</Project>
+      <Name>plainlua</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\DEV Game\FreeFlow\out\build\Visual Studio Community 2022 Release - amd64\engine\3rdparty\png\png.vcxproj">
+      <Project>{4827F9E6-035C-3361-AC5A-930DD3688C83}</Project>
+      <Name>png</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\DEV Game\FreeFlow\out\build\Visual Studio Community 2022 Release - amd64\engine\3rdparty\poly2tri\poly2tri.vcxproj">
+      <Project>{A227F74C-EC04-318C-9ED4-62096B4F68DD}</Project>
+      <Name>poly2tri</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\DEV Game\FreeFlow\out\build\Visual Studio Community 2022 Release - amd64\engine\3rdparty\pugixml\pugixml.vcxproj">
+      <Project>{FBED9566-EE22-37E5-9367-02F7AAC87D8A}</Project>
+      <Name>pugixml</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\DEV Game\FreeFlow\out\build\Visual Studio Community 2022 Release - amd64\engine\3rdparty\recast\recast.vcxproj">
+      <Project>{C4A68E6E-6445-3C0A-814A-136D3E213363}</Project>
+      <Name>recast</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\DEV Game\FreeFlow\out\build\Visual Studio Community 2022 Release - amd64\engine\3rdparty\simdjson\simdjson.vcxproj">
+      <Project>{4F3A41CF-D6A4-3FBE-AC6F-7419EED0B49E}</Project>
+      <Name>simdjson</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\DEV Game\FreeFlow\out\build\Visual Studio Community 2022 Release - amd64\engine\3rdparty\lua\tolua\tolua.vcxproj">
+      <Project>{B7D6ED9B-1B9E-30B1-8BFD-8D21A33A8885}</Project>
+      <Name>tolua</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\DEV Game\FreeFlow\out\build\Visual Studio Community 2022 Release - amd64\engine\3rdparty\unzip\unzip.vcxproj">
+      <Project>{685BCAFF-98A5-3907-B8EB-8410AC3EF1C5}</Project>
+      <Name>unzip</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\DEV Game\FreeFlow\out\build\Visual Studio Community 2022 Release - amd64\engine\3rdparty\webp\webp.vcxproj">
+      <Project>{ED91B822-335B-39BE-9BB0-71E44EA44E4D}</Project>
+      <Name>webp</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\DEV Game\FreeFlow\out\build\Visual Studio Community 2022 Release - amd64\engine\3rdparty\websocket-parser\websocket-parser.vcxproj">
+      <Project>{70045B42-3AC8-3069-A5A5-81977EAF51E4}</Project>
+      <Name>websocket-parser</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\DEV Game\FreeFlow\out\build\Visual Studio Community 2022 Release - amd64\engine\3rdparty\xxhash\xxhash.vcxproj">
+      <Project>{95D136E5-24A2-3453-83EA-8202668DCA36}</Project>
+      <Name>xxhash</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\DEV Game\FreeFlow\out\build\Visual Studio Community 2022 Release - amd64\engine\3rdparty\yasio\yasio.vcxproj">
+      <Project>{DF4F863E-F0A6-3CB9-AB4C-0471ECF9D4B4}</Project>
+      <Name>yasio</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+    <Import Project="C:\Program Files\CMake\share\cmake-3.31\Templates\MSBuild\nasm.targets" />
+  </ImportGroup>
+</Project>

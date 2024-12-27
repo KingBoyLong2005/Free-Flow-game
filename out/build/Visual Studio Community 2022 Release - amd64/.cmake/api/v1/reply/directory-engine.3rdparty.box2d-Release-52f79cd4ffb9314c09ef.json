@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "engine/3rdparty/box2d",
+		"source" : "C:/dev/axmol/3rdparty/box2d"
+	}
+}

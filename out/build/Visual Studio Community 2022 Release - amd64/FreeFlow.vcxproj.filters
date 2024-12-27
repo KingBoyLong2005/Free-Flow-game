@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\DEV Game\FreeFlow\Source\AppDelegate.cpp">
+      <Filter>Source Files\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\DEV Game\FreeFlow\Source\BoardGame.cpp">
+      <Filter>Source Files\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\DEV Game\FreeFlow\Source\MainScene.cpp">
+      <Filter>Source Files\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\DEV Game\FreeFlow\proj.win32\main.cpp">
+      <Filter>Source Files\proj.win32</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\DEV Game\FreeFlow\Source\AppDelegate.h">
+      <Filter>Source Files\Source</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\DEV Game\FreeFlow\Source\BoardGame.hpp">
+      <Filter>Source Files\Source</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\DEV Game\FreeFlow\Source\MainScene.h">
+      <Filter>Source Files\Source</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\DEV Game\FreeFlow\proj.win32\main.h">
+      <Filter>Source Files\proj.win32</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\DEV Game\FreeFlow\proj.win32\resource.h">
+      <Filter>Source Files\proj.win32</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\DEV Game\FreeFlow\Content\CloseNormal.png">
+      <Filter>Content</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\DEV Game\FreeFlow\Content\CloseSelected.png">
+      <Filter>Content</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\DEV Game\FreeFlow\Content\HelloWorld.png">
+      <Filter>Content</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\DEV Game\FreeFlow\Content\fonts\Marker Felt.ttf">
+      <Filter>Content\fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\DEV Game\FreeFlow\Content\fonts\arial.ttf">
+      <Filter>Content\fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\DEV Game\FreeFlow\Content\res\.gitkeep">
+      <Filter>Content\res</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\DEV Game\FreeFlow\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="D:\DEV Game\FreeFlow\proj.win32\game.rc">
+      <Filter>Source Files\proj.win32</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Content">
+      <UniqueIdentifier>{53BFF9AB-7DA4-3DA3-98DA-B14CEE5834F5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Content\fonts">
+      <UniqueIdentifier>{9EF3F2D4-1008-3418-998E-267530ED7666}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Content\res">
+      <UniqueIdentifier>{66F8C7EE-A046-3AAB-A05D-7106E14526C3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{E3D90C80-D58F-332D-8095-D0A32B0C215C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Source">
+      <UniqueIdentifier>{92F18558-EBA5-3A23-A07E-6F07BC06CF96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\proj.win32">
+      <UniqueIdentifier>{8FD2DC29-B15A-31EC-94CE-8E19B90DD5CA}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\dev\axmol\extensions\assets-manager\src\assets-manager\AssetsManager.cpp">
+      <Filter>Source Files\src\assets-manager</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\axmol\extensions\assets-manager\src\assets-manager\AssetsManagerEx.cpp">
+      <Filter>Source Files\src\assets-manager</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\axmol\extensions\assets-manager\src\assets-manager\EventAssetsManagerEx.cpp">
+      <Filter>Source Files\src\assets-manager</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\axmol\extensions\assets-manager\src\assets-manager\EventListenerAssetsManagerEx.cpp">
+      <Filter>Source Files\src\assets-manager</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\axmol\extensions\assets-manager\src\assets-manager\Manifest.cpp">
+      <Filter>Source Files\src\assets-manager</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\dev\axmol\extensions\assets-manager\src\assets-manager\AssetsManager.h">
+      <Filter>Source Files\src\assets-manager</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\axmol\extensions\assets-manager\src\assets-manager\AssetsManagerEx.h">
+      <Filter>Source Files\src\assets-manager</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\axmol\extensions\assets-manager\src\assets-manager\EventAssetsManagerEx.h">
+      <Filter>Source Files\src\assets-manager</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\axmol\extensions\assets-manager\src\assets-manager\EventListenerAssetsManagerEx.h">
+      <Filter>Source Files\src\assets-manager</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\axmol\extensions\assets-manager\src\assets-manager\Manifest.h">
+      <Filter>Source Files\src\assets-manager</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\dev\axmol\extensions\assets-manager\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{E3D90C80-D58F-332D-8095-D0A32B0C215C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\src">
+      <UniqueIdentifier>{25199533-0F74-32D3-A91A-BBA4DF7A64D6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\src\assets-manager">
+      <UniqueIdentifier>{8D58E5E7-FF4B-329F-96D7-6DB1B90A533D}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

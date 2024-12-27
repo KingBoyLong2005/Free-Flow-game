@@ -1,0 +1,635 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{E3F6E66F-3106-3B8C-BA00-B9A1048CCD84}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>cocostudio</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+    <Import Project="D:\DEV Game\FreeFlow\out\build\Visual Studio Community 2022 Release - amd64\engine\extensions\cocostudio\cocostudio.dir\nasm.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\DEV Game\FreeFlow\out\build\Visual Studio Community 2022 Release - amd64\lib\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">cocostudio.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">cocostudio</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\DEV Game\FreeFlow\out\build\Visual Studio Community 2022 Release - amd64\lib\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">cocostudio.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">cocostudio</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\DEV Game\FreeFlow\out\build\Visual Studio Community 2022 Release - amd64\lib\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">cocostudio.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">cocostudio</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\DEV Game\FreeFlow\out\build\Visual Studio Community 2022 Release - amd64\lib\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">cocostudio.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">cocostudio</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\dev\axmol\extensions\cocostudio\src;C:\dev\axmol\extensions\spine\runtime\include;C:\dev\axmol\extensions\spine\src;C:\dev\axmol\extensions\Particle3D\src;C:\dev\axmol\extensions\DragonBones\src;C:\dev\axmol;C:\dev\axmol\3rdparty;C:\dev\axmol\extensions\scripting;C:\dev\axmol\core;C:\dev\axmol\core\platform;C:\dev\axmol\core\base;C:\dev\axmol\core\audio;C:\dev\axmol\core\platform\win32;C:\dev\axmol\3rdparty\robin-map\include;C:\dev\axmol\3rdparty\freetype\include;C:\dev\axmol\3rdparty\openal;C:\dev\axmol\3rdparty\glfw\include\GLFW;C:\dev\axmol\3rdparty\fmt\include;C:\dev\axmol\3rdparty\websocket-parser;C:\dev\axmol\3rdparty\png;C:\dev\axmol\3rdparty\box2d\include;C:\dev\axmol\3rdparty\chipmunk\include;D:\DEV Game\FreeFlow\out\build\Visual Studio Community 2022 Release - amd64\engine\3rdparty\freetype\include;C:\dev\axmol\3rdparty\recast\..;C:\dev\axmol\3rdparty\bullet\.;C:\dev\axmol\3rdparty\webp\src\webp;C:\dev\axmol\3rdparty\pugixml;C:\dev\axmol\3rdparty\xxhash\.;C:\dev\axmol\3rdparty\fastlz;C:\dev\axmol\3rdparty\clipper2\include;C:\dev\axmol\3rdparty\ConvertUTF\.;C:\dev\axmol\3rdparty\poly2tri\..;C:\dev\axmol\3rdparty\astcenc\..;C:\dev\axmol\3rdparty\openal\include;C:\dev\axmol\3rdparty\openal\include\AL;C:\dev\axmol\3rdparty\ogg\include;C:\dev\axmol\3rdparty\glad\include;C:\dev\axmol\3rdparty\glfw\include;C:\dev\axmol\3rdparty\unzip;C:\dev\axmol\3rdparty\llhttp\include;C:\dev\axmol\3rdparty\yasio;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/dev/axmol/3rdparty/zlib/_x/include" /external:I "C:/dev/axmol/3rdparty/jpeg-turbo/_x/include" /external:I "C:/dev/axmol/3rdparty/openssl/_x/include" /external:I "C:/dev/axmol/3rdparty/curl/_x/include" /Zc:char8_t- /utf-8 /Zm2000</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <StringPooling>true</StringPooling>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;AX_ENABLE_EXT_SPINE=1;AX_ENABLE_EXT_DRAGONBONES=1;NTCVT_CP_DEFAULT=CP_UTF8;AX_ENABLE_MFMEDIA=1;AX_ENABLE_MSEDGE_WEBVIEW2=1;AX_ENABLE_PHYSICS=1;AX_ENABLE_3D=1;AX_ENABLE_3D_PHYSICS=1;AX_ENABLE_NAVMESH=1;AX_ENABLE_MEDIA=1;AX_ENABLE_AUDIO=1;AX_ENABLE_CONSOLE=1;_AX_DEBUG=1;AX_GLES_PROFILE=300;_WIN32;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;AX_SSE_INTRINSICS=1;__SSE4_1__=1;OPENSSL_SUPPRESS_DEPRECATED=1;AX_USE_ALSOFT=1;ZLIB_DLL=1;PNG_INTEL_SSE_OPT=1;CP_USE_CGTYPES=0;CP_USE_DOUBLES=0;BT_USE_SSE_IN_API=1;P2T_STATIC_EXPORTS;ASTCENC_NEON=0;ASTCENC_SSE=41;ASTCENC_AVX=0;ASTCENC_POPCNT=1;ASTCENC_F16C=0;NOUNCRYPT=1;YASIO_SSL_BACKEND=1;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;AX_ENABLE_EXT_SPINE=1;AX_ENABLE_EXT_DRAGONBONES=1;NTCVT_CP_DEFAULT=CP_UTF8;AX_ENABLE_MFMEDIA=1;AX_ENABLE_MSEDGE_WEBVIEW2=1;AX_ENABLE_PHYSICS=1;AX_ENABLE_3D=1;AX_ENABLE_3D_PHYSICS=1;AX_ENABLE_NAVMESH=1;AX_ENABLE_MEDIA=1;AX_ENABLE_AUDIO=1;AX_ENABLE_CONSOLE=1;_AX_DEBUG=1;AX_GLES_PROFILE=300;_WIN32;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;AX_SSE_INTRINSICS=1;__SSE4_1__=1;OPENSSL_SUPPRESS_DEPRECATED=1;AX_USE_ALSOFT=1;ZLIB_DLL=1;PNG_INTEL_SSE_OPT=1;CP_USE_CGTYPES=0;CP_USE_DOUBLES=0;BT_USE_SSE_IN_API=1;P2T_STATIC_EXPORTS;ASTCENC_NEON=0;ASTCENC_SSE=41;ASTCENC_AVX=0;ASTCENC_POPCNT=1;ASTCENC_F16C=0;NOUNCRYPT=1;YASIO_SSL_BACKEND=1;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\dev\axmol\extensions\cocostudio\src;C:\dev\axmol\extensions\spine\runtime\include;C:\dev\axmol\extensions\spine\src;C:\dev\axmol\extensions\Particle3D\src;C:\dev\axmol\extensions\DragonBones\src;C:\dev\axmol;C:\dev\axmol\3rdparty;C:\dev\axmol\extensions\scripting;C:\dev\axmol\core;C:\dev\axmol\core\platform;C:\dev\axmol\core\base;C:\dev\axmol\core\audio;C:\dev\axmol\core\platform\win32;C:\dev\axmol\3rdparty\robin-map\include;C:\dev\axmol\3rdparty\freetype\include;C:\dev\axmol\3rdparty\openal;C:\dev\axmol\3rdparty\glfw\include\GLFW;C:\dev\axmol\3rdparty\fmt\include;C:\dev\axmol\3rdparty\websocket-parser;C:\dev\axmol\3rdparty\png;C:\dev\axmol\3rdparty\box2d\include;C:\dev\axmol\3rdparty\chipmunk\include;D:\DEV Game\FreeFlow\out\build\Visual Studio Community 2022 Release - amd64\engine\3rdparty\freetype\include;C:\dev\axmol\3rdparty\recast\..;C:\dev\axmol\3rdparty\bullet\.;C:\dev\axmol\3rdparty\webp\src\webp;C:\dev\axmol\3rdparty\pugixml;C:\dev\axmol\3rdparty\xxhash\.;C:\dev\axmol\3rdparty\fastlz;C:\dev\axmol\3rdparty\clipper2\include;C:\dev\axmol\3rdparty\ConvertUTF\.;C:\dev\axmol\3rdparty\poly2tri\..;C:\dev\axmol\3rdparty\astcenc\..;C:\dev\axmol\3rdparty\openal\include;C:\dev\axmol\3rdparty\openal\include\AL;C:\dev\axmol\3rdparty\ogg\include;C:\dev\axmol\3rdparty\glad\include;C:\dev\axmol\3rdparty\glfw\include;C:\dev\axmol\3rdparty\unzip;C:\dev\axmol\3rdparty\llhttp\include;C:\dev\axmol\3rdparty\yasio;C:\dev\axmol\3rdparty\zlib\_x\include;C:\dev\axmol\3rdparty\jpeg-turbo\_x\include;C:\dev\axmol\3rdparty\openssl\_x\include;C:\dev\axmol\3rdparty\curl\_x\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <NASM>
+      <IncludePaths>C:\dev\axmol\extensions\cocostudio\src\;C:\dev\axmol\extensions\spine\runtime\include\;C:\dev\axmol\extensions\spine\src\;C:\dev\axmol\extensions\Particle3D\src\;C:\dev\axmol\extensions\DragonBones\src\;C:\dev\axmol\;C:\dev\axmol\3rdparty\;C:\dev\axmol\extensions\scripting\;C:\dev\axmol\core\;C:\dev\axmol\core\platform\;C:\dev\axmol\core\base\;C:\dev\axmol\core\audio\;C:\dev\axmol\core\platform\win32\;C:\dev\axmol\3rdparty\robin-map\include\;C:\dev\axmol\3rdparty\freetype\include\;C:\dev\axmol\3rdparty\openal\;C:\dev\axmol\3rdparty\glfw\include\GLFW\;C:\dev\axmol\3rdparty\fmt\include\;C:\dev\axmol\3rdparty\websocket-parser\;C:\dev\axmol\3rdparty\png\;C:\dev\axmol\3rdparty\box2d\include\;C:\dev\axmol\3rdparty\chipmunk\include\;D:\DEV Game\FreeFlow\out\build\Visual Studio Community 2022 Release - amd64\engine\3rdparty\freetype\include\;C:\dev\axmol\3rdparty\recast\..\;C:\dev\axmol\3rdparty\bullet\.\;C:\dev\axmol\3rdparty\webp\src\webp\;C:\dev\axmol\3rdparty\pugixml\;C:\dev\axmol\3rdparty\xxhash\.\;C:\dev\axmol\3rdparty\fastlz\;C:\dev\axmol\3rdparty\clipper2\include\;C:\dev\axmol\3rdparty\ConvertUTF\.\;C:\dev\axmol\3rdparty\poly2tri\..\;C:\dev\axmol\3rdparty\astcenc\..\;C:\dev\axmol\3rdparty\openal\include\;C:\dev\axmol\3rdparty\openal\include\AL\;C:\dev\axmol\3rdparty\ogg\include\;C:\dev\axmol\3rdparty\glad\include\;C:\dev\axmol\3rdparty\glfw\include\;C:\dev\axmol\3rdparty\unzip\;C:\dev\axmol\3rdparty\llhttp\include\;C:\dev\axmol\3rdparty\yasio\;C:\dev\axmol\3rdparty\zlib\_x\include\;C:\dev\axmol\3rdparty\jpeg-turbo\_x\include\;C:\dev\axmol\3rdparty\openssl\_x\include\;C:\dev\axmol\3rdparty\curl\_x\include\;%(IncludePaths)</IncludePaths>
+      <AdditionalOptions>/GF /utf-8 /MP</AdditionalOptions>
+      <ErrorReporting>m2000</ErrorReporting>
+      <Outputswitch>1</Outputswitch>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;AX_ENABLE_EXT_SPINE=1;AX_ENABLE_EXT_DRAGONBONES=1;NTCVT_CP_DEFAULT=CP_UTF8;AX_ENABLE_MFMEDIA=1;AX_ENABLE_MSEDGE_WEBVIEW2=1;AX_ENABLE_PHYSICS=1;AX_ENABLE_3D=1;AX_ENABLE_3D_PHYSICS=1;AX_ENABLE_NAVMESH=1;AX_ENABLE_MEDIA=1;AX_ENABLE_AUDIO=1;AX_ENABLE_CONSOLE=1;_AX_DEBUG=1;AX_GLES_PROFILE=300;_WIN32;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;AX_SSE_INTRINSICS=1;__SSE4_1__=1;OPENSSL_SUPPRESS_DEPRECATED=1;AX_USE_ALSOFT=1;ZLIB_DLL=1;PNG_INTEL_SSE_OPT=1;CP_USE_CGTYPES=0;CP_USE_DOUBLES=0;BT_USE_SSE_IN_API=1;P2T_STATIC_EXPORTS;ASTCENC_NEON=0;ASTCENC_SSE=41;ASTCENC_AVX=0;ASTCENC_POPCNT=1;ASTCENC_F16C=0;NOUNCRYPT=1;YASIO_SSL_BACKEND=1;CMAKE_INTDIR="Debug";</PreprocessorDefinitions>
+    </NASM>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\dev\axmol\extensions\cocostudio\src;C:\dev\axmol\extensions\spine\runtime\include;C:\dev\axmol\extensions\spine\src;C:\dev\axmol\extensions\Particle3D\src;C:\dev\axmol\extensions\DragonBones\src;C:\dev\axmol;C:\dev\axmol\3rdparty;C:\dev\axmol\extensions\scripting;C:\dev\axmol\core;C:\dev\axmol\core\platform;C:\dev\axmol\core\base;C:\dev\axmol\core\audio;C:\dev\axmol\core\platform\win32;C:\dev\axmol\3rdparty\robin-map\include;C:\dev\axmol\3rdparty\freetype\include;C:\dev\axmol\3rdparty\openal;C:\dev\axmol\3rdparty\glfw\include\GLFW;C:\dev\axmol\3rdparty\fmt\include;C:\dev\axmol\3rdparty\websocket-parser;C:\dev\axmol\3rdparty\png;C:\dev\axmol\3rdparty\box2d\include;C:\dev\axmol\3rdparty\chipmunk\include;D:\DEV Game\FreeFlow\out\build\Visual Studio Community 2022 Release - amd64\engine\3rdparty\freetype\include;C:\dev\axmol\3rdparty\recast\..;C:\dev\axmol\3rdparty\bullet\.;C:\dev\axmol\3rdparty\webp\src\webp;C:\dev\axmol\3rdparty\pugixml;C:\dev\axmol\3rdparty\xxhash\.;C:\dev\axmol\3rdparty\fastlz;C:\dev\axmol\3rdparty\clipper2\include;C:\dev\axmol\3rdparty\ConvertUTF\.;C:\dev\axmol\3rdparty\poly2tri\..;C:\dev\axmol\3rdparty\astcenc\..;C:\dev\axmol\3rdparty\openal\include;C:\dev\axmol\3rdparty\openal\include\AL;C:\dev\axmol\3rdparty\ogg\include;C:\dev\axmol\3rdparty\glad\include;C:\dev\axmol\3rdparty\glfw\include;C:\dev\axmol\3rdparty\unzip;C:\dev\axmol\3rdparty\llhttp\include;C:\dev\axmol\3rdparty\yasio;C:\dev\axmol\3rdparty\zlib\_x\include;C:\dev\axmol\3rdparty\jpeg-turbo\_x\include;C:\dev\axmol\3rdparty\openssl\_x\include;C:\dev\axmol\3rdparty\curl\_x\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\dev\axmol\extensions\cocostudio\src;C:\dev\axmol\extensions\spine\runtime\include;C:\dev\axmol\extensions\spine\src;C:\dev\axmol\extensions\Particle3D\src;C:\dev\axmol\extensions\DragonBones\src;C:\dev\axmol;C:\dev\axmol\3rdparty;C:\dev\axmol\extensions\scripting;C:\dev\axmol\core;C:\dev\axmol\core\platform;C:\dev\axmol\core\base;C:\dev\axmol\core\audio;C:\dev\axmol\core\platform\win32;C:\dev\axmol\3rdparty\robin-map\include;C:\dev\axmol\3rdparty\freetype\include;C:\dev\axmol\3rdparty\openal;C:\dev\axmol\3rdparty\glfw\include\GLFW;C:\dev\axmol\3rdparty\fmt\include;C:\dev\axmol\3rdparty\websocket-parser;C:\dev\axmol\3rdparty\png;C:\dev\axmol\3rdparty\box2d\include;C:\dev\axmol\3rdparty\chipmunk\include;D:\DEV Game\FreeFlow\out\build\Visual Studio Community 2022 Release - amd64\engine\3rdparty\freetype\include;C:\dev\axmol\3rdparty\recast\..;C:\dev\axmol\3rdparty\bullet\.;C:\dev\axmol\3rdparty\webp\src\webp;C:\dev\axmol\3rdparty\pugixml;C:\dev\axmol\3rdparty\xxhash\.;C:\dev\axmol\3rdparty\fastlz;C:\dev\axmol\3rdparty\clipper2\include;C:\dev\axmol\3rdparty\ConvertUTF\.;C:\dev\axmol\3rdparty\poly2tri\..;C:\dev\axmol\3rdparty\astcenc\..;C:\dev\axmol\3rdparty\openal\include;C:\dev\axmol\3rdparty\openal\include\AL;C:\dev\axmol\3rdparty\ogg\include;C:\dev\axmol\3rdparty\glad\include;C:\dev\axmol\3rdparty\glfw\include;C:\dev\axmol\3rdparty\unzip;C:\dev\axmol\3rdparty\llhttp\include;C:\dev\axmol\3rdparty\yasio;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/dev/axmol/3rdparty/zlib/_x/include" /external:I "C:/dev/axmol/3rdparty/jpeg-turbo/_x/include" /external:I "C:/dev/axmol/3rdparty/openssl/_x/include" /external:I "C:/dev/axmol/3rdparty/curl/_x/include" /Zc:char8_t- /utf-8 /Zm2000</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <StringPooling>true</StringPooling>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;AX_ENABLE_EXT_SPINE=1;AX_ENABLE_EXT_DRAGONBONES=1;NTCVT_CP_DEFAULT=CP_UTF8;AX_ENABLE_MFMEDIA=1;AX_ENABLE_MSEDGE_WEBVIEW2=1;AX_ENABLE_PHYSICS=1;AX_ENABLE_3D=1;AX_ENABLE_3D_PHYSICS=1;AX_ENABLE_NAVMESH=1;AX_ENABLE_MEDIA=1;AX_ENABLE_AUDIO=1;AX_ENABLE_CONSOLE=1;AX_GLES_PROFILE=300;_WIN32;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;AX_SSE_INTRINSICS=1;__SSE4_1__=1;OPENSSL_SUPPRESS_DEPRECATED=1;AX_USE_ALSOFT=1;ZLIB_DLL=1;PNG_INTEL_SSE_OPT=1;CP_USE_CGTYPES=0;CP_USE_DOUBLES=0;BT_USE_SSE_IN_API=1;P2T_STATIC_EXPORTS;ASTCENC_NEON=0;ASTCENC_SSE=41;ASTCENC_AVX=0;ASTCENC_POPCNT=1;ASTCENC_F16C=0;NOUNCRYPT=1;YASIO_SSL_BACKEND=1;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;AX_ENABLE_EXT_SPINE=1;AX_ENABLE_EXT_DRAGONBONES=1;NTCVT_CP_DEFAULT=CP_UTF8;AX_ENABLE_MFMEDIA=1;AX_ENABLE_MSEDGE_WEBVIEW2=1;AX_ENABLE_PHYSICS=1;AX_ENABLE_3D=1;AX_ENABLE_3D_PHYSICS=1;AX_ENABLE_NAVMESH=1;AX_ENABLE_MEDIA=1;AX_ENABLE_AUDIO=1;AX_ENABLE_CONSOLE=1;AX_GLES_PROFILE=300;_WIN32;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;AX_SSE_INTRINSICS=1;__SSE4_1__=1;OPENSSL_SUPPRESS_DEPRECATED=1;AX_USE_ALSOFT=1;ZLIB_DLL=1;PNG_INTEL_SSE_OPT=1;CP_USE_CGTYPES=0;CP_USE_DOUBLES=0;BT_USE_SSE_IN_API=1;P2T_STATIC_EXPORTS;ASTCENC_NEON=0;ASTCENC_SSE=41;ASTCENC_AVX=0;ASTCENC_POPCNT=1;ASTCENC_F16C=0;NOUNCRYPT=1;YASIO_SSL_BACKEND=1;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\dev\axmol\extensions\cocostudio\src;C:\dev\axmol\extensions\spine\runtime\include;C:\dev\axmol\extensions\spine\src;C:\dev\axmol\extensions\Particle3D\src;C:\dev\axmol\extensions\DragonBones\src;C:\dev\axmol;C:\dev\axmol\3rdparty;C:\dev\axmol\extensions\scripting;C:\dev\axmol\core;C:\dev\axmol\core\platform;C:\dev\axmol\core\base;C:\dev\axmol\core\audio;C:\dev\axmol\core\platform\win32;C:\dev\axmol\3rdparty\robin-map\include;C:\dev\axmol\3rdparty\freetype\include;C:\dev\axmol\3rdparty\openal;C:\dev\axmol\3rdparty\glfw\include\GLFW;C:\dev\axmol\3rdparty\fmt\include;C:\dev\axmol\3rdparty\websocket-parser;C:\dev\axmol\3rdparty\png;C:\dev\axmol\3rdparty\box2d\include;C:\dev\axmol\3rdparty\chipmunk\include;D:\DEV Game\FreeFlow\out\build\Visual Studio Community 2022 Release - amd64\engine\3rdparty\freetype\include;C:\dev\axmol\3rdparty\recast\..;C:\dev\axmol\3rdparty\bullet\.;C:\dev\axmol\3rdparty\webp\src\webp;C:\dev\axmol\3rdparty\pugixml;C:\dev\axmol\3rdparty\xxhash\.;C:\dev\axmol\3rdparty\fastlz;C:\dev\axmol\3rdparty\clipper2\include;C:\dev\axmol\3rdparty\ConvertUTF\.;C:\dev\axmol\3rdparty\poly2tri\..;C:\dev\axmol\3rdparty\astcenc\..;C:\dev\axmol\3rdparty\openal\include;C:\dev\axmol\3rdparty\openal\include\AL;C:\dev\axmol\3rdparty\ogg\include;C:\dev\axmol\3rdparty\glad\include;C:\dev\axmol\3rdparty\glfw\include;C:\dev\axmol\3rdparty\unzip;C:\dev\axmol\3rdparty\llhttp\include;C:\dev\axmol\3rdparty\yasio;C:\dev\axmol\3rdparty\zlib\_x\include;C:\dev\axmol\3rdparty\jpeg-turbo\_x\include;C:\dev\axmol\3rdparty\openssl\_x\include;C:\dev\axmol\3rdparty\curl\_x\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <NASM>
+      <IncludePaths>C:\dev\axmol\extensions\cocostudio\src\;C:\dev\axmol\extensions\spine\runtime\include\;C:\dev\axmol\extensions\spine\src\;C:\dev\axmol\extensions\Particle3D\src\;C:\dev\axmol\extensions\DragonBones\src\;C:\dev\axmol\;C:\dev\axmol\3rdparty\;C:\dev\axmol\extensions\scripting\;C:\dev\axmol\core\;C:\dev\axmol\core\platform\;C:\dev\axmol\core\base\;C:\dev\axmol\core\audio\;C:\dev\axmol\core\platform\win32\;C:\dev\axmol\3rdparty\robin-map\include\;C:\dev\axmol\3rdparty\freetype\include\;C:\dev\axmol\3rdparty\openal\;C:\dev\axmol\3rdparty\glfw\include\GLFW\;C:\dev\axmol\3rdparty\fmt\include\;C:\dev\axmol\3rdparty\websocket-parser\;C:\dev\axmol\3rdparty\png\;C:\dev\axmol\3rdparty\box2d\include\;C:\dev\axmol\3rdparty\chipmunk\include\;D:\DEV Game\FreeFlow\out\build\Visual Studio Community 2022 Release - amd64\engine\3rdparty\freetype\include\;C:\dev\axmol\3rdparty\recast\..\;C:\dev\axmol\3rdparty\bullet\.\;C:\dev\axmol\3rdparty\webp\src\webp\;C:\dev\axmol\3rdparty\pugixml\;C:\dev\axmol\3rdparty\xxhash\.\;C:\dev\axmol\3rdparty\fastlz\;C:\dev\axmol\3rdparty\clipper2\include\;C:\dev\axmol\3rdparty\ConvertUTF\.\;C:\dev\axmol\3rdparty\poly2tri\..\;C:\dev\axmol\3rdparty\astcenc\..\;C:\dev\axmol\3rdparty\openal\include\;C:\dev\axmol\3rdparty\openal\include\AL\;C:\dev\axmol\3rdparty\ogg\include\;C:\dev\axmol\3rdparty\glad\include\;C:\dev\axmol\3rdparty\glfw\include\;C:\dev\axmol\3rdparty\unzip\;C:\dev\axmol\3rdparty\llhttp\include\;C:\dev\axmol\3rdparty\yasio\;C:\dev\axmol\3rdparty\zlib\_x\include\;C:\dev\axmol\3rdparty\jpeg-turbo\_x\include\;C:\dev\axmol\3rdparty\openssl\_x\include\;C:\dev\axmol\3rdparty\curl\_x\include\;%(IncludePaths)</IncludePaths>
+      <AdditionalOptions>/GF /utf-8 /MP</AdditionalOptions>
+      <ErrorReporting>m2000</ErrorReporting>
+      <Outputswitch>1</Outputswitch>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;AX_ENABLE_EXT_SPINE=1;AX_ENABLE_EXT_DRAGONBONES=1;NTCVT_CP_DEFAULT=CP_UTF8;AX_ENABLE_MFMEDIA=1;AX_ENABLE_MSEDGE_WEBVIEW2=1;AX_ENABLE_PHYSICS=1;AX_ENABLE_3D=1;AX_ENABLE_3D_PHYSICS=1;AX_ENABLE_NAVMESH=1;AX_ENABLE_MEDIA=1;AX_ENABLE_AUDIO=1;AX_ENABLE_CONSOLE=1;AX_GLES_PROFILE=300;_WIN32;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;AX_SSE_INTRINSICS=1;__SSE4_1__=1;OPENSSL_SUPPRESS_DEPRECATED=1;AX_USE_ALSOFT=1;ZLIB_DLL=1;PNG_INTEL_SSE_OPT=1;CP_USE_CGTYPES=0;CP_USE_DOUBLES=0;BT_USE_SSE_IN_API=1;P2T_STATIC_EXPORTS;ASTCENC_NEON=0;ASTCENC_SSE=41;ASTCENC_AVX=0;ASTCENC_POPCNT=1;ASTCENC_F16C=0;NOUNCRYPT=1;YASIO_SSL_BACKEND=1;CMAKE_INTDIR="Release";</PreprocessorDefinitions>
+    </NASM>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\dev\axmol\extensions\cocostudio\src;C:\dev\axmol\extensions\spine\runtime\include;C:\dev\axmol\extensions\spine\src;C:\dev\axmol\extensions\Particle3D\src;C:\dev\axmol\extensions\DragonBones\src;C:\dev\axmol;C:\dev\axmol\3rdparty;C:\dev\axmol\extensions\scripting;C:\dev\axmol\core;C:\dev\axmol\core\platform;C:\dev\axmol\core\base;C:\dev\axmol\core\audio;C:\dev\axmol\core\platform\win32;C:\dev\axmol\3rdparty\robin-map\include;C:\dev\axmol\3rdparty\freetype\include;C:\dev\axmol\3rdparty\openal;C:\dev\axmol\3rdparty\glfw\include\GLFW;C:\dev\axmol\3rdparty\fmt\include;C:\dev\axmol\3rdparty\websocket-parser;C:\dev\axmol\3rdparty\png;C:\dev\axmol\3rdparty\box2d\include;C:\dev\axmol\3rdparty\chipmunk\include;D:\DEV Game\FreeFlow\out\build\Visual Studio Community 2022 Release - amd64\engine\3rdparty\freetype\include;C:\dev\axmol\3rdparty\recast\..;C:\dev\axmol\3rdparty\bullet\.;C:\dev\axmol\3rdparty\webp\src\webp;C:\dev\axmol\3rdparty\pugixml;C:\dev\axmol\3rdparty\xxhash\.;C:\dev\axmol\3rdparty\fastlz;C:\dev\axmol\3rdparty\clipper2\include;C:\dev\axmol\3rdparty\ConvertUTF\.;C:\dev\axmol\3rdparty\poly2tri\..;C:\dev\axmol\3rdparty\astcenc\..;C:\dev\axmol\3rdparty\openal\include;C:\dev\axmol\3rdparty\openal\include\AL;C:\dev\axmol\3rdparty\ogg\include;C:\dev\axmol\3rdparty\glad\include;C:\dev\axmol\3rdparty\glfw\include;C:\dev\axmol\3rdparty\unzip;C:\dev\axmol\3rdparty\llhttp\include;C:\dev\axmol\3rdparty\yasio;C:\dev\axmol\3rdparty\zlib\_x\include;C:\dev\axmol\3rdparty\jpeg-turbo\_x\include;C:\dev\axmol\3rdparty\openssl\_x\include;C:\dev\axmol\3rdparty\curl\_x\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\dev\axmol\extensions\cocostudio\src;C:\dev\axmol\extensions\spine\runtime\include;C:\dev\axmol\extensions\spine\src;C:\dev\axmol\extensions\Particle3D\src;C:\dev\axmol\extensions\DragonBones\src;C:\dev\axmol;C:\dev\axmol\3rdparty;C:\dev\axmol\extensions\scripting;C:\dev\axmol\core;C:\dev\axmol\core\platform;C:\dev\axmol\core\base;C:\dev\axmol\core\audio;C:\dev\axmol\core\platform\win32;C:\dev\axmol\3rdparty\robin-map\include;C:\dev\axmol\3rdparty\freetype\include;C:\dev\axmol\3rdparty\openal;C:\dev\axmol\3rdparty\glfw\include\GLFW;C:\dev\axmol\3rdparty\fmt\include;C:\dev\axmol\3rdparty\websocket-parser;C:\dev\axmol\3rdparty\png;C:\dev\axmol\3rdparty\box2d\include;C:\dev\axmol\3rdparty\chipmunk\include;D:\DEV Game\FreeFlow\out\build\Visual Studio Community 2022 Release - amd64\engine\3rdparty\freetype\include;C:\dev\axmol\3rdparty\recast\..;C:\dev\axmol\3rdparty\bullet\.;C:\dev\axmol\3rdparty\webp\src\webp;C:\dev\axmol\3rdparty\pugixml;C:\dev\axmol\3rdparty\xxhash\.;C:\dev\axmol\3rdparty\fastlz;C:\dev\axmol\3rdparty\clipper2\include;C:\dev\axmol\3rdparty\ConvertUTF\.;C:\dev\axmol\3rdparty\poly2tri\..;C:\dev\axmol\3rdparty\astcenc\..;C:\dev\axmol\3rdparty\openal\include;C:\dev\axmol\3rdparty\openal\include\AL;C:\dev\axmol\3rdparty\ogg\include;C:\dev\axmol\3rdparty\glad\include;C:\dev\axmol\3rdparty\glfw\include;C:\dev\axmol\3rdparty\unzip;C:\dev\axmol\3rdparty\llhttp\include;C:\dev\axmol\3rdparty\yasio;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/dev/axmol/3rdparty/zlib/_x/include" /external:I "C:/dev/axmol/3rdparty/jpeg-turbo/_x/include" /external:I "C:/dev/axmol/3rdparty/openssl/_x/include" /external:I "C:/dev/axmol/3rdparty/curl/_x/include" /Zc:char8_t- /utf-8 /Zm2000</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <StringPooling>true</StringPooling>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;AX_ENABLE_EXT_SPINE=1;AX_ENABLE_EXT_DRAGONBONES=1;NTCVT_CP_DEFAULT=CP_UTF8;AX_ENABLE_MFMEDIA=1;AX_ENABLE_MSEDGE_WEBVIEW2=1;AX_ENABLE_PHYSICS=1;AX_ENABLE_3D=1;AX_ENABLE_3D_PHYSICS=1;AX_ENABLE_NAVMESH=1;AX_ENABLE_MEDIA=1;AX_ENABLE_AUDIO=1;AX_ENABLE_CONSOLE=1;AX_GLES_PROFILE=300;_WIN32;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;AX_SSE_INTRINSICS=1;__SSE4_1__=1;OPENSSL_SUPPRESS_DEPRECATED=1;AX_USE_ALSOFT=1;ZLIB_DLL=1;PNG_INTEL_SSE_OPT=1;CP_USE_CGTYPES=0;CP_USE_DOUBLES=0;BT_USE_SSE_IN_API=1;P2T_STATIC_EXPORTS;ASTCENC_NEON=0;ASTCENC_SSE=41;ASTCENC_AVX=0;ASTCENC_POPCNT=1;ASTCENC_F16C=0;NOUNCRYPT=1;YASIO_SSL_BACKEND=1;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;AX_ENABLE_EXT_SPINE=1;AX_ENABLE_EXT_DRAGONBONES=1;NTCVT_CP_DEFAULT=CP_UTF8;AX_ENABLE_MFMEDIA=1;AX_ENABLE_MSEDGE_WEBVIEW2=1;AX_ENABLE_PHYSICS=1;AX_ENABLE_3D=1;AX_ENABLE_3D_PHYSICS=1;AX_ENABLE_NAVMESH=1;AX_ENABLE_MEDIA=1;AX_ENABLE_AUDIO=1;AX_ENABLE_CONSOLE=1;AX_GLES_PROFILE=300;_WIN32;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;AX_SSE_INTRINSICS=1;__SSE4_1__=1;OPENSSL_SUPPRESS_DEPRECATED=1;AX_USE_ALSOFT=1;ZLIB_DLL=1;PNG_INTEL_SSE_OPT=1;CP_USE_CGTYPES=0;CP_USE_DOUBLES=0;BT_USE_SSE_IN_API=1;P2T_STATIC_EXPORTS;ASTCENC_NEON=0;ASTCENC_SSE=41;ASTCENC_AVX=0;ASTCENC_POPCNT=1;ASTCENC_F16C=0;NOUNCRYPT=1;YASIO_SSL_BACKEND=1;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\dev\axmol\extensions\cocostudio\src;C:\dev\axmol\extensions\spine\runtime\include;C:\dev\axmol\extensions\spine\src;C:\dev\axmol\extensions\Particle3D\src;C:\dev\axmol\extensions\DragonBones\src;C:\dev\axmol;C:\dev\axmol\3rdparty;C:\dev\axmol\extensions\scripting;C:\dev\axmol\core;C:\dev\axmol\core\platform;C:\dev\axmol\core\base;C:\dev\axmol\core\audio;C:\dev\axmol\core\platform\win32;C:\dev\axmol\3rdparty\robin-map\include;C:\dev\axmol\3rdparty\freetype\include;C:\dev\axmol\3rdparty\openal;C:\dev\axmol\3rdparty\glfw\include\GLFW;C:\dev\axmol\3rdparty\fmt\include;C:\dev\axmol\3rdparty\websocket-parser;C:\dev\axmol\3rdparty\png;C:\dev\axmol\3rdparty\box2d\include;C:\dev\axmol\3rdparty\chipmunk\include;D:\DEV Game\FreeFlow\out\build\Visual Studio Community 2022 Release - amd64\engine\3rdparty\freetype\include;C:\dev\axmol\3rdparty\recast\..;C:\dev\axmol\3rdparty\bullet\.;C:\dev\axmol\3rdparty\webp\src\webp;C:\dev\axmol\3rdparty\pugixml;C:\dev\axmol\3rdparty\xxhash\.;C:\dev\axmol\3rdparty\fastlz;C:\dev\axmol\3rdparty\clipper2\include;C:\dev\axmol\3rdparty\ConvertUTF\.;C:\dev\axmol\3rdparty\poly2tri\..;C:\dev\axmol\3rdparty\astcenc\..;C:\dev\axmol\3rdparty\openal\include;C:\dev\axmol\3rdparty\openal\include\AL;C:\dev\axmol\3rdparty\ogg\include;C:\dev\axmol\3rdparty\glad\include;C:\dev\axmol\3rdparty\glfw\include;C:\dev\axmol\3rdparty\unzip;C:\dev\axmol\3rdparty\llhttp\include;C:\dev\axmol\3rdparty\yasio;C:\dev\axmol\3rdparty\zlib\_x\include;C:\dev\axmol\3rdparty\jpeg-turbo\_x\include;C:\dev\axmol\3rdparty\openssl\_x\include;C:\dev\axmol\3rdparty\curl\_x\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <NASM>
+      <IncludePaths>C:\dev\axmol\extensions\cocostudio\src\;C:\dev\axmol\extensions\spine\runtime\include\;C:\dev\axmol\extensions\spine\src\;C:\dev\axmol\extensions\Particle3D\src\;C:\dev\axmol\extensions\DragonBones\src\;C:\dev\axmol\;C:\dev\axmol\3rdparty\;C:\dev\axmol\extensions\scripting\;C:\dev\axmol\core\;C:\dev\axmol\core\platform\;C:\dev\axmol\core\base\;C:\dev\axmol\core\audio\;C:\dev\axmol\core\platform\win32\;C:\dev\axmol\3rdparty\robin-map\include\;C:\dev\axmol\3rdparty\freetype\include\;C:\dev\axmol\3rdparty\openal\;C:\dev\axmol\3rdparty\glfw\include\GLFW\;C:\dev\axmol\3rdparty\fmt\include\;C:\dev\axmol\3rdparty\websocket-parser\;C:\dev\axmol\3rdparty\png\;C:\dev\axmol\3rdparty\box2d\include\;C:\dev\axmol\3rdparty\chipmunk\include\;D:\DEV Game\FreeFlow\out\build\Visual Studio Community 2022 Release - amd64\engine\3rdparty\freetype\include\;C:\dev\axmol\3rdparty\recast\..\;C:\dev\axmol\3rdparty\bullet\.\;C:\dev\axmol\3rdparty\webp\src\webp\;C:\dev\axmol\3rdparty\pugixml\;C:\dev\axmol\3rdparty\xxhash\.\;C:\dev\axmol\3rdparty\fastlz\;C:\dev\axmol\3rdparty\clipper2\include\;C:\dev\axmol\3rdparty\ConvertUTF\.\;C:\dev\axmol\3rdparty\poly2tri\..\;C:\dev\axmol\3rdparty\astcenc\..\;C:\dev\axmol\3rdparty\openal\include\;C:\dev\axmol\3rdparty\openal\include\AL\;C:\dev\axmol\3rdparty\ogg\include\;C:\dev\axmol\3rdparty\glad\include\;C:\dev\axmol\3rdparty\glfw\include\;C:\dev\axmol\3rdparty\unzip\;C:\dev\axmol\3rdparty\llhttp\include\;C:\dev\axmol\3rdparty\yasio\;C:\dev\axmol\3rdparty\zlib\_x\include\;C:\dev\axmol\3rdparty\jpeg-turbo\_x\include\;C:\dev\axmol\3rdparty\openssl\_x\include\;C:\dev\axmol\3rdparty\curl\_x\include\;%(IncludePaths)</IncludePaths>
+      <AdditionalOptions>/GF /utf-8 /MP</AdditionalOptions>
+      <ErrorReporting>m2000</ErrorReporting>
+      <Outputswitch>1</Outputswitch>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;AX_ENABLE_EXT_SPINE=1;AX_ENABLE_EXT_DRAGONBONES=1;NTCVT_CP_DEFAULT=CP_UTF8;AX_ENABLE_MFMEDIA=1;AX_ENABLE_MSEDGE_WEBVIEW2=1;AX_ENABLE_PHYSICS=1;AX_ENABLE_3D=1;AX_ENABLE_3D_PHYSICS=1;AX_ENABLE_NAVMESH=1;AX_ENABLE_MEDIA=1;AX_ENABLE_AUDIO=1;AX_ENABLE_CONSOLE=1;AX_GLES_PROFILE=300;_WIN32;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;AX_SSE_INTRINSICS=1;__SSE4_1__=1;OPENSSL_SUPPRESS_DEPRECATED=1;AX_USE_ALSOFT=1;ZLIB_DLL=1;PNG_INTEL_SSE_OPT=1;CP_USE_CGTYPES=0;CP_USE_DOUBLES=0;BT_USE_SSE_IN_API=1;P2T_STATIC_EXPORTS;ASTCENC_NEON=0;ASTCENC_SSE=41;ASTCENC_AVX=0;ASTCENC_POPCNT=1;ASTCENC_F16C=0;NOUNCRYPT=1;YASIO_SSL_BACKEND=1;CMAKE_INTDIR="MinSizeRel";</PreprocessorDefinitions>
+    </NASM>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\dev\axmol\extensions\cocostudio\src;C:\dev\axmol\extensions\spine\runtime\include;C:\dev\axmol\extensions\spine\src;C:\dev\axmol\extensions\Particle3D\src;C:\dev\axmol\extensions\DragonBones\src;C:\dev\axmol;C:\dev\axmol\3rdparty;C:\dev\axmol\extensions\scripting;C:\dev\axmol\core;C:\dev\axmol\core\platform;C:\dev\axmol\core\base;C:\dev\axmol\core\audio;C:\dev\axmol\core\platform\win32;C:\dev\axmol\3rdparty\robin-map\include;C:\dev\axmol\3rdparty\freetype\include;C:\dev\axmol\3rdparty\openal;C:\dev\axmol\3rdparty\glfw\include\GLFW;C:\dev\axmol\3rdparty\fmt\include;C:\dev\axmol\3rdparty\websocket-parser;C:\dev\axmol\3rdparty\png;C:\dev\axmol\3rdparty\box2d\include;C:\dev\axmol\3rdparty\chipmunk\include;D:\DEV Game\FreeFlow\out\build\Visual Studio Community 2022 Release - amd64\engine\3rdparty\freetype\include;C:\dev\axmol\3rdparty\recast\..;C:\dev\axmol\3rdparty\bullet\.;C:\dev\axmol\3rdparty\webp\src\webp;C:\dev\axmol\3rdparty\pugixml;C:\dev\axmol\3rdparty\xxhash\.;C:\dev\axmol\3rdparty\fastlz;C:\dev\axmol\3rdparty\clipper2\include;C:\dev\axmol\3rdparty\ConvertUTF\.;C:\dev\axmol\3rdparty\poly2tri\..;C:\dev\axmol\3rdparty\astcenc\..;C:\dev\axmol\3rdparty\openal\include;C:\dev\axmol\3rdparty\openal\include\AL;C:\dev\axmol\3rdparty\ogg\include;C:\dev\axmol\3rdparty\glad\include;C:\dev\axmol\3rdparty\glfw\include;C:\dev\axmol\3rdparty\unzip;C:\dev\axmol\3rdparty\llhttp\include;C:\dev\axmol\3rdparty\yasio;C:\dev\axmol\3rdparty\zlib\_x\include;C:\dev\axmol\3rdparty\jpeg-turbo\_x\include;C:\dev\axmol\3rdparty\openssl\_x\include;C:\dev\axmol\3rdparty\curl\_x\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\dev\axmol\extensions\cocostudio\src;C:\dev\axmol\extensions\spine\runtime\include;C:\dev\axmol\extensions\spine\src;C:\dev\axmol\extensions\Particle3D\src;C:\dev\axmol\extensions\DragonBones\src;C:\dev\axmol;C:\dev\axmol\3rdparty;C:\dev\axmol\extensions\scripting;C:\dev\axmol\core;C:\dev\axmol\core\platform;C:\dev\axmol\core\base;C:\dev\axmol\core\audio;C:\dev\axmol\core\platform\win32;C:\dev\axmol\3rdparty\robin-map\include;C:\dev\axmol\3rdparty\freetype\include;C:\dev\axmol\3rdparty\openal;C:\dev\axmol\3rdparty\glfw\include\GLFW;C:\dev\axmol\3rdparty\fmt\include;C:\dev\axmol\3rdparty\websocket-parser;C:\dev\axmol\3rdparty\png;C:\dev\axmol\3rdparty\box2d\include;C:\dev\axmol\3rdparty\chipmunk\include;D:\DEV Game\FreeFlow\out\build\Visual Studio Community 2022 Release - amd64\engine\3rdparty\freetype\include;C:\dev\axmol\3rdparty\recast\..;C:\dev\axmol\3rdparty\bullet\.;C:\dev\axmol\3rdparty\webp\src\webp;C:\dev\axmol\3rdparty\pugixml;C:\dev\axmol\3rdparty\xxhash\.;C:\dev\axmol\3rdparty\fastlz;C:\dev\axmol\3rdparty\clipper2\include;C:\dev\axmol\3rdparty\ConvertUTF\.;C:\dev\axmol\3rdparty\poly2tri\..;C:\dev\axmol\3rdparty\astcenc\..;C:\dev\axmol\3rdparty\openal\include;C:\dev\axmol\3rdparty\openal\include\AL;C:\dev\axmol\3rdparty\ogg\include;C:\dev\axmol\3rdparty\glad\include;C:\dev\axmol\3rdparty\glfw\include;C:\dev\axmol\3rdparty\unzip;C:\dev\axmol\3rdparty\llhttp\include;C:\dev\axmol\3rdparty\yasio;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/dev/axmol/3rdparty/zlib/_x/include" /external:I "C:/dev/axmol/3rdparty/jpeg-turbo/_x/include" /external:I "C:/dev/axmol/3rdparty/openssl/_x/include" /external:I "C:/dev/axmol/3rdparty/curl/_x/include" /Zc:char8_t- /utf-8 /Zm2000</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <StringPooling>true</StringPooling>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;AX_ENABLE_EXT_SPINE=1;AX_ENABLE_EXT_DRAGONBONES=1;NTCVT_CP_DEFAULT=CP_UTF8;AX_ENABLE_MFMEDIA=1;AX_ENABLE_MSEDGE_WEBVIEW2=1;AX_ENABLE_PHYSICS=1;AX_ENABLE_3D=1;AX_ENABLE_3D_PHYSICS=1;AX_ENABLE_NAVMESH=1;AX_ENABLE_MEDIA=1;AX_ENABLE_AUDIO=1;AX_ENABLE_CONSOLE=1;AX_GLES_PROFILE=300;_WIN32;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;AX_SSE_INTRINSICS=1;__SSE4_1__=1;OPENSSL_SUPPRESS_DEPRECATED=1;AX_USE_ALSOFT=1;ZLIB_DLL=1;PNG_INTEL_SSE_OPT=1;CP_USE_CGTYPES=0;CP_USE_DOUBLES=0;BT_USE_SSE_IN_API=1;P2T_STATIC_EXPORTS;ASTCENC_NEON=0;ASTCENC_SSE=41;ASTCENC_AVX=0;ASTCENC_POPCNT=1;ASTCENC_F16C=0;NOUNCRYPT=1;YASIO_SSL_BACKEND=1;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;AX_ENABLE_EXT_SPINE=1;AX_ENABLE_EXT_DRAGONBONES=1;NTCVT_CP_DEFAULT=CP_UTF8;AX_ENABLE_MFMEDIA=1;AX_ENABLE_MSEDGE_WEBVIEW2=1;AX_ENABLE_PHYSICS=1;AX_ENABLE_3D=1;AX_ENABLE_3D_PHYSICS=1;AX_ENABLE_NAVMESH=1;AX_ENABLE_MEDIA=1;AX_ENABLE_AUDIO=1;AX_ENABLE_CONSOLE=1;AX_GLES_PROFILE=300;_WIN32;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;AX_SSE_INTRINSICS=1;__SSE4_1__=1;OPENSSL_SUPPRESS_DEPRECATED=1;AX_USE_ALSOFT=1;ZLIB_DLL=1;PNG_INTEL_SSE_OPT=1;CP_USE_CGTYPES=0;CP_USE_DOUBLES=0;BT_USE_SSE_IN_API=1;P2T_STATIC_EXPORTS;ASTCENC_NEON=0;ASTCENC_SSE=41;ASTCENC_AVX=0;ASTCENC_POPCNT=1;ASTCENC_F16C=0;NOUNCRYPT=1;YASIO_SSL_BACKEND=1;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\dev\axmol\extensions\cocostudio\src;C:\dev\axmol\extensions\spine\runtime\include;C:\dev\axmol\extensions\spine\src;C:\dev\axmol\extensions\Particle3D\src;C:\dev\axmol\extensions\DragonBones\src;C:\dev\axmol;C:\dev\axmol\3rdparty;C:\dev\axmol\extensions\scripting;C:\dev\axmol\core;C:\dev\axmol\core\platform;C:\dev\axmol\core\base;C:\dev\axmol\core\audio;C:\dev\axmol\core\platform\win32;C:\dev\axmol\3rdparty\robin-map\include;C:\dev\axmol\3rdparty\freetype\include;C:\dev\axmol\3rdparty\openal;C:\dev\axmol\3rdparty\glfw\include\GLFW;C:\dev\axmol\3rdparty\fmt\include;C:\dev\axmol\3rdparty\websocket-parser;C:\dev\axmol\3rdparty\png;C:\dev\axmol\3rdparty\box2d\include;C:\dev\axmol\3rdparty\chipmunk\include;D:\DEV Game\FreeFlow\out\build\Visual Studio Community 2022 Release - amd64\engine\3rdparty\freetype\include;C:\dev\axmol\3rdparty\recast\..;C:\dev\axmol\3rdparty\bullet\.;C:\dev\axmol\3rdparty\webp\src\webp;C:\dev\axmol\3rdparty\pugixml;C:\dev\axmol\3rdparty\xxhash\.;C:\dev\axmol\3rdparty\fastlz;C:\dev\axmol\3rdparty\clipper2\include;C:\dev\axmol\3rdparty\ConvertUTF\.;C:\dev\axmol\3rdparty\poly2tri\..;C:\dev\axmol\3rdparty\astcenc\..;C:\dev\axmol\3rdparty\openal\include;C:\dev\axmol\3rdparty\openal\include\AL;C:\dev\axmol\3rdparty\ogg\include;C:\dev\axmol\3rdparty\glad\include;C:\dev\axmol\3rdparty\glfw\include;C:\dev\axmol\3rdparty\unzip;C:\dev\axmol\3rdparty\llhttp\include;C:\dev\axmol\3rdparty\yasio;C:\dev\axmol\3rdparty\zlib\_x\include;C:\dev\axmol\3rdparty\jpeg-turbo\_x\include;C:\dev\axmol\3rdparty\openssl\_x\include;C:\dev\axmol\3rdparty\curl\_x\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <NASM>
+      <IncludePaths>C:\dev\axmol\extensions\cocostudio\src\;C:\dev\axmol\extensions\spine\runtime\include\;C:\dev\axmol\extensions\spine\src\;C:\dev\axmol\extensions\Particle3D\src\;C:\dev\axmol\extensions\DragonBones\src\;C:\dev\axmol\;C:\dev\axmol\3rdparty\;C:\dev\axmol\extensions\scripting\;C:\dev\axmol\core\;C:\dev\axmol\core\platform\;C:\dev\axmol\core\base\;C:\dev\axmol\core\audio\;C:\dev\axmol\core\platform\win32\;C:\dev\axmol\3rdparty\robin-map\include\;C:\dev\axmol\3rdparty\freetype\include\;C:\dev\axmol\3rdparty\openal\;C:\dev\axmol\3rdparty\glfw\include\GLFW\;C:\dev\axmol\3rdparty\fmt\include\;C:\dev\axmol\3rdparty\websocket-parser\;C:\dev\axmol\3rdparty\png\;C:\dev\axmol\3rdparty\box2d\include\;C:\dev\axmol\3rdparty\chipmunk\include\;D:\DEV Game\FreeFlow\out\build\Visual Studio Community 2022 Release - amd64\engine\3rdparty\freetype\include\;C:\dev\axmol\3rdparty\recast\..\;C:\dev\axmol\3rdparty\bullet\.\;C:\dev\axmol\3rdparty\webp\src\webp\;C:\dev\axmol\3rdparty\pugixml\;C:\dev\axmol\3rdparty\xxhash\.\;C:\dev\axmol\3rdparty\fastlz\;C:\dev\axmol\3rdparty\clipper2\include\;C:\dev\axmol\3rdparty\ConvertUTF\.\;C:\dev\axmol\3rdparty\poly2tri\..\;C:\dev\axmol\3rdparty\astcenc\..\;C:\dev\axmol\3rdparty\openal\include\;C:\dev\axmol\3rdparty\openal\include\AL\;C:\dev\axmol\3rdparty\ogg\include\;C:\dev\axmol\3rdparty\glad\include\;C:\dev\axmol\3rdparty\glfw\include\;C:\dev\axmol\3rdparty\unzip\;C:\dev\axmol\3rdparty\llhttp\include\;C:\dev\axmol\3rdparty\yasio\;C:\dev\axmol\3rdparty\zlib\_x\include\;C:\dev\axmol\3rdparty\jpeg-turbo\_x\include\;C:\dev\axmol\3rdparty\openssl\_x\include\;C:\dev\axmol\3rdparty\curl\_x\include\;%(IncludePaths)</IncludePaths>
+      <AdditionalOptions>/GF /utf-8 /MP</AdditionalOptions>
+      <ErrorReporting>m2000</ErrorReporting>
+      <Outputswitch>1</Outputswitch>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;AX_ENABLE_EXT_SPINE=1;AX_ENABLE_EXT_DRAGONBONES=1;NTCVT_CP_DEFAULT=CP_UTF8;AX_ENABLE_MFMEDIA=1;AX_ENABLE_MSEDGE_WEBVIEW2=1;AX_ENABLE_PHYSICS=1;AX_ENABLE_3D=1;AX_ENABLE_3D_PHYSICS=1;AX_ENABLE_NAVMESH=1;AX_ENABLE_MEDIA=1;AX_ENABLE_AUDIO=1;AX_ENABLE_CONSOLE=1;AX_GLES_PROFILE=300;_WIN32;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;AX_SSE_INTRINSICS=1;__SSE4_1__=1;OPENSSL_SUPPRESS_DEPRECATED=1;AX_USE_ALSOFT=1;ZLIB_DLL=1;PNG_INTEL_SSE_OPT=1;CP_USE_CGTYPES=0;CP_USE_DOUBLES=0;BT_USE_SSE_IN_API=1;P2T_STATIC_EXPORTS;ASTCENC_NEON=0;ASTCENC_SSE=41;ASTCENC_AVX=0;ASTCENC_POPCNT=1;ASTCENC_F16C=0;NOUNCRYPT=1;YASIO_SSL_BACKEND=1;CMAKE_INTDIR="RelWithDebInfo";</PreprocessorDefinitions>
+    </NASM>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\dev\axmol\extensions\cocostudio\src;C:\dev\axmol\extensions\spine\runtime\include;C:\dev\axmol\extensions\spine\src;C:\dev\axmol\extensions\Particle3D\src;C:\dev\axmol\extensions\DragonBones\src;C:\dev\axmol;C:\dev\axmol\3rdparty;C:\dev\axmol\extensions\scripting;C:\dev\axmol\core;C:\dev\axmol\core\platform;C:\dev\axmol\core\base;C:\dev\axmol\core\audio;C:\dev\axmol\core\platform\win32;C:\dev\axmol\3rdparty\robin-map\include;C:\dev\axmol\3rdparty\freetype\include;C:\dev\axmol\3rdparty\openal;C:\dev\axmol\3rdparty\glfw\include\GLFW;C:\dev\axmol\3rdparty\fmt\include;C:\dev\axmol\3rdparty\websocket-parser;C:\dev\axmol\3rdparty\png;C:\dev\axmol\3rdparty\box2d\include;C:\dev\axmol\3rdparty\chipmunk\include;D:\DEV Game\FreeFlow\out\build\Visual Studio Community 2022 Release - amd64\engine\3rdparty\freetype\include;C:\dev\axmol\3rdparty\recast\..;C:\dev\axmol\3rdparty\bullet\.;C:\dev\axmol\3rdparty\webp\src\webp;C:\dev\axmol\3rdparty\pugixml;C:\dev\axmol\3rdparty\xxhash\.;C:\dev\axmol\3rdparty\fastlz;C:\dev\axmol\3rdparty\clipper2\include;C:\dev\axmol\3rdparty\ConvertUTF\.;C:\dev\axmol\3rdparty\poly2tri\..;C:\dev\axmol\3rdparty\astcenc\..;C:\dev\axmol\3rdparty\openal\include;C:\dev\axmol\3rdparty\openal\include\AL;C:\dev\axmol\3rdparty\ogg\include;C:\dev\axmol\3rdparty\glad\include;C:\dev\axmol\3rdparty\glfw\include;C:\dev\axmol\3rdparty\unzip;C:\dev\axmol\3rdparty\llhttp\include;C:\dev\axmol\3rdparty\yasio;C:\dev\axmol\3rdparty\zlib\_x\include;C:\dev\axmol\3rdparty\jpeg-turbo\_x\include;C:\dev\axmol\3rdparty\openssl\_x\include;C:\dev\axmol\3rdparty\curl\_x\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\dev\axmol\extensions\cocostudio\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/dev/axmol/extensions/cocostudio/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SD:/DEV Game/FreeFlow" "-BD:/DEV Game/FreeFlow/out/build/Visual Studio Community 2022 Release - amd64" --check-stamp-file "D:/DEV Game/FreeFlow/out/build/Visual Studio Community 2022 Release - amd64/engine/extensions/cocostudio/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.31\Templates\MSBuild\nasm.props.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\DEV Game\FreeFlow\out\build\Visual Studio Community 2022 Release - amd64\engine\extensions\cocostudio\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/dev/axmol/extensions/cocostudio/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SD:/DEV Game/FreeFlow" "-BD:/DEV Game/FreeFlow/out/build/Visual Studio Community 2022 Release - amd64" --check-stamp-file "D:/DEV Game/FreeFlow/out/build/Visual Studio Community 2022 Release - amd64/engine/extensions/cocostudio/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.31\Templates\MSBuild\nasm.props.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\DEV Game\FreeFlow\out\build\Visual Studio Community 2022 Release - amd64\engine\extensions\cocostudio\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/dev/axmol/extensions/cocostudio/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SD:/DEV Game/FreeFlow" "-BD:/DEV Game/FreeFlow/out/build/Visual Studio Community 2022 Release - amd64" --check-stamp-file "D:/DEV Game/FreeFlow/out/build/Visual Studio Community 2022 Release - amd64/engine/extensions/cocostudio/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.31\Templates\MSBuild\nasm.props.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\DEV Game\FreeFlow\out\build\Visual Studio Community 2022 Release - amd64\engine\extensions\cocostudio\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/dev/axmol/extensions/cocostudio/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SD:/DEV Game/FreeFlow" "-BD:/DEV Game/FreeFlow/out/build/Visual Studio Community 2022 Release - amd64" --check-stamp-file "D:/DEV Game/FreeFlow/out/build/Visual Studio Community 2022 Release - amd64/engine/extensions/cocostudio/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.31\Templates\MSBuild\nasm.props.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\DEV Game\FreeFlow\out\build\Visual Studio Community 2022 Release - amd64\engine\extensions\cocostudio\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\ActionFrame.cpp" />
+    <ClInclude Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\ActionFrame.h" />
+    <ClCompile Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\ActionFrameEasing.cpp" />
+    <ClInclude Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\ActionFrameEasing.h" />
+    <ClCompile Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\ActionManagerEx.cpp" />
+    <ClInclude Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\ActionManagerEx.h" />
+    <ClCompile Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\ActionNode.cpp" />
+    <ClInclude Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\ActionNode.h" />
+    <ClCompile Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\ActionObject.cpp" />
+    <ClInclude Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\ActionObject.h" />
+    <ClCompile Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\ActionTimeline\ActionTimeline.cpp" />
+    <ClInclude Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\ActionTimeline\ActionTimeline.h" />
+    <ClCompile Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\ActionTimeline\ActionTimelineCache.cpp" />
+    <ClInclude Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\ActionTimeline\ActionTimelineCache.h" />
+    <ClCompile Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\ActionTimeline\ActionTimelineData.cpp" />
+    <ClInclude Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\ActionTimeline\ActionTimelineData.h" />
+    <ClCompile Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\ActionTimeline\ActionTimelineNode.cpp" />
+    <ClInclude Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\ActionTimeline\ActionTimelineNode.h" />
+    <ClCompile Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\ActionTimeline\BoneNode.cpp" />
+    <ClInclude Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\ActionTimeline\BoneNode.h" />
+    <ClCompile Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\ActionTimeline\CSLoader.cpp" />
+    <ClInclude Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\ActionTimeline\CSLoader.h" />
+    <ClCompile Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\ActionTimeline\Frame.cpp" />
+    <ClInclude Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\ActionTimeline\Frame.h" />
+    <ClCompile Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\ActionTimeline\SkeletonNode.cpp" />
+    <ClInclude Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\ActionTimeline\SkeletonNode.h" />
+    <ClCompile Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\ActionTimeline\SkinNode.cpp" />
+    <ClInclude Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\ActionTimeline\SkinNode.h" />
+    <ClCompile Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\ActionTimeline\TimeLine.cpp" />
+    <ClInclude Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\ActionTimeline\TimeLine.h" />
+    <ClInclude Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\ActionTimeline\TimelineMacro.h" />
+    <ClCompile Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\Armature.cpp" />
+    <ClInclude Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\Armature.h" />
+    <ClCompile Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\ArmatureAnimation.cpp" />
+    <ClInclude Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\ArmatureAnimation.h" />
+    <ClCompile Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\ArmatureDataManager.cpp" />
+    <ClInclude Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\ArmatureDataManager.h" />
+    <ClCompile Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\ArmatureDefine.cpp" />
+    <ClInclude Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\ArmatureDefine.h" />
+    <ClCompile Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\BatchNode.cpp" />
+    <ClInclude Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\BatchNode.h" />
+    <ClCompile Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\Bone.cpp" />
+    <ClInclude Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\Bone.h" />
+    <ClInclude Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\CSLanguageDataBinary_generated.h" />
+    <ClInclude Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\CSParse3DBinary_generated.h" />
+    <ClInclude Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\CSParseBinary_generated.h" />
+    <ClCompile Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\CocoLoader.cpp" />
+    <ClInclude Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\CocoLoader.h" />
+    <ClCompile Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\CocoStudio.cpp" />
+    <ClInclude Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\CocoStudio.h" />
+    <ClInclude Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\CocosStudioExport.h" />
+    <ClCompile Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\CocosStudioExtension.cpp" />
+    <ClInclude Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\CocosStudioExtension.h" />
+    <ClCompile Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\ColliderDetector.cpp" />
+    <ClInclude Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\ColliderDetector.h" />
+    <ClCompile Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\ComAttribute.cpp" />
+    <ClInclude Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\ComAttribute.h" />
+    <ClCompile Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\ComAudio.cpp" />
+    <ClInclude Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\ComAudio.h" />
+    <ClInclude Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\ComBase.h" />
+    <ClCompile Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\ComController.cpp" />
+    <ClInclude Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\ComController.h" />
+    <ClCompile Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\ComExtensionData.cpp" />
+    <ClInclude Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\ComExtensionData.h" />
+    <ClCompile Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\ComRender.cpp" />
+    <ClInclude Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\ComRender.h" />
+    <ClCompile Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\DataReaderHelper.cpp" />
+    <ClInclude Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\DataReaderHelper.h" />
+    <ClCompile Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\Datas.cpp" />
+    <ClInclude Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\Datas.h" />
+    <ClCompile Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\DecorativeDisplay.cpp" />
+    <ClInclude Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\DecorativeDisplay.h" />
+    <ClCompile Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\DictionaryHelper.cpp" />
+    <ClInclude Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\DictionaryHelper.h" />
+    <ClCompile Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\DisplayFactory.cpp" />
+    <ClInclude Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\DisplayFactory.h" />
+    <ClCompile Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\DisplayManager.cpp" />
+    <ClInclude Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\DisplayManager.h" />
+    <ClCompile Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\FlatBuffersSerialize.cpp" />
+    <ClInclude Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\FlatBuffersSerialize.h" />
+    <ClCompile Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\InputDelegate.cpp" />
+    <ClInclude Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\InputDelegate.h" />
+    <ClCompile Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\LocalizationManager.cpp" />
+    <ClInclude Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\LocalizationManager.h" />
+    <ClCompile Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\ProcessBase.cpp" />
+    <ClInclude Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\ProcessBase.h" />
+    <ClCompile Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\SGUIReader.cpp" />
+    <ClInclude Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\SGUIReader.h" />
+    <ClCompile Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\SSceneReader.cpp" />
+    <ClInclude Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\SSceneReader.h" />
+    <ClCompile Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\Skin.cpp" />
+    <ClInclude Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\Skin.h" />
+    <ClCompile Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\SpineSkeletonDataCache.cpp" />
+    <ClInclude Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\SpineSkeletonDataCache.h" />
+    <ClCompile Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\SpriteFrameCacheHelper.cpp" />
+    <ClInclude Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\SpriteFrameCacheHelper.h" />
+    <ClCompile Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\TransformHelp.cpp" />
+    <ClInclude Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\TransformHelp.h" />
+    <ClCompile Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\TriggerBase.cpp" />
+    <ClInclude Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\TriggerBase.h" />
+    <ClCompile Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\TriggerMng.cpp" />
+    <ClInclude Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\TriggerMng.h" />
+    <ClCompile Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\TriggerObj.cpp" />
+    <ClInclude Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\TriggerObj.h" />
+    <ClCompile Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\Tween.cpp" />
+    <ClInclude Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\Tween.h" />
+    <ClCompile Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\WidgetCallBackHandlerProtocol.cpp" />
+    <ClInclude Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\WidgetCallBackHandlerProtocol.h" />
+    <ClCompile Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\ArmatureNodeReader\ArmatureNodeReader.cpp" />
+    <ClInclude Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\ArmatureNodeReader\ArmatureNodeReader.h" />
+    <ClInclude Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\ArmatureNodeReader\CSArmatureNode_generated.h" />
+    <ClCompile Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\ButtonReader\ButtonReader.cpp" />
+    <ClInclude Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\ButtonReader\ButtonReader.h" />
+    <ClCompile Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\CheckBoxReader\CheckBoxReader.cpp" />
+    <ClInclude Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\CheckBoxReader\CheckBoxReader.h" />
+    <ClCompile Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\ComAudioReader\ComAudioReader.cpp" />
+    <ClInclude Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\ComAudioReader\ComAudioReader.h" />
+    <ClCompile Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\GameMapReader\GameMapReader.cpp" />
+    <ClInclude Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\GameMapReader\GameMapReader.h" />
+    <ClCompile Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\GameNode3DReader\GameNode3DReader.cpp" />
+    <ClInclude Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\GameNode3DReader\GameNode3DReader.h" />
+    <ClCompile Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\ImageViewReader\ImageViewReader.cpp" />
+    <ClInclude Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\ImageViewReader\ImageViewReader.h" />
+    <ClCompile Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\LayoutReader\LayoutReader.cpp" />
+    <ClInclude Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\LayoutReader\LayoutReader.h" />
+    <ClCompile Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\Light3DReader\Light3DReader.cpp" />
+    <ClInclude Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\Light3DReader\Light3DReader.h" />
+    <ClCompile Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\ListViewReader\ListViewReader.cpp" />
+    <ClInclude Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\ListViewReader\ListViewReader.h" />
+    <ClCompile Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\LoadingBarReader\LoadingBarReader.cpp" />
+    <ClInclude Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\LoadingBarReader\LoadingBarReader.h" />
+    <ClCompile Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\MeshReader\MeshReader.cpp" />
+    <ClInclude Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\MeshReader\MeshReader.h" />
+    <ClCompile Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\Node3DReader\Node3DReader.cpp" />
+    <ClInclude Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\Node3DReader\Node3DReader.h" />
+    <ClCompile Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\NodeReader\NodeReader.cpp" />
+    <ClInclude Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\NodeReader\NodeReader.h" />
+    <ClInclude Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\NodeReaderDefine.h" />
+    <ClCompile Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\NodeReaderProtocol.cpp" />
+    <ClInclude Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\NodeReaderProtocol.h" />
+    <ClCompile Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\PageViewReader\PageViewReader.cpp" />
+    <ClInclude Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\PageViewReader\PageViewReader.h" />
+    <ClCompile Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\Particle3DReader\Particle3DReader.cpp" />
+    <ClInclude Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\Particle3DReader\Particle3DReader.h" />
+    <ClCompile Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\ParticleReader\ParticleReader.cpp" />
+    <ClInclude Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\ParticleReader\ParticleReader.h" />
+    <ClCompile Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\ProjectNodeReader\ProjectNodeReader.cpp" />
+    <ClInclude Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\ProjectNodeReader\ProjectNodeReader.h" />
+    <ClCompile Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\RadioButtonReader\RadioButtonGroupReader.cpp" />
+    <ClInclude Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\RadioButtonReader\RadioButtonGroupReader.h" />
+    <ClCompile Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\RadioButtonReader\RadioButtonReader.cpp" />
+    <ClInclude Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\RadioButtonReader\RadioButtonReader.h" />
+    <ClCompile Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\RichTextReader\RichTextReader.cpp" />
+    <ClInclude Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\RichTextReader\RichTextReader.h" />
+    <ClCompile Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\ScrollViewReader\ScrollViewReader.cpp" />
+    <ClInclude Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\ScrollViewReader\ScrollViewReader.h" />
+    <ClCompile Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\SingleNodeReader\SingleNodeReader.cpp" />
+    <ClInclude Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\SingleNodeReader\SingleNodeReader.h" />
+    <ClCompile Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\SkeletonReader\BoneNodeReader.cpp" />
+    <ClInclude Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\SkeletonReader\BoneNodeReader.h" />
+    <ClInclude Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\SkeletonReader\CSBoneBinary_generated.h" />
+    <ClCompile Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\SkeletonReader\SkeletonNodeReader.cpp" />
+    <ClInclude Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\SkeletonReader\SkeletonNodeReader.h" />
+    <ClCompile Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\SliderReader\SliderReader.cpp" />
+    <ClInclude Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\SliderReader\SliderReader.h" />
+    <ClCompile Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\SpineSkeletonReader\SpineSkeletonReader.cpp" />
+    <ClInclude Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\SpineSkeletonReader\SpineSkeletonReader.h" />
+    <ClCompile Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\SpriteReader\SpriteReader.cpp" />
+    <ClInclude Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\SpriteReader\SpriteReader.h" />
+    <ClInclude Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\TabControlReader\CSTabControl_generated.h" />
+    <ClCompile Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\TabControlReader\TabControlReader.cpp" />
+    <ClInclude Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\TabControlReader\TabControlReader.h" />
+    <ClCompile Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\TextAtlasReader\TextAtlasReader.cpp" />
+    <ClInclude Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\TextAtlasReader\TextAtlasReader.h" />
+    <ClCompile Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\TextBMFontReader\TextBMFontReader.cpp" />
+    <ClInclude Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\TextBMFontReader\TextBMFontReader.h" />
+    <ClCompile Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\TextFieldReader\TextFieldExReader.cpp" />
+    <ClInclude Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\TextFieldReader\TextFieldExReader.h" />
+    <ClCompile Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\TextFieldReader\TextFieldReader.cpp" />
+    <ClInclude Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\TextFieldReader\TextFieldReader.h" />
+    <ClCompile Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\TextReader\TextReader.cpp" />
+    <ClInclude Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\TextReader\TextReader.h" />
+    <ClCompile Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\UserCameraReader\UserCameraReader.cpp" />
+    <ClInclude Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\UserCameraReader\UserCameraReader.h" />
+    <ClCompile Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\WidgetReader.cpp" />
+    <ClInclude Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\WidgetReader.h" />
+    <ClCompile Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\WidgetReaderProtocol.cpp" />
+    <ClInclude Include="C:\dev\axmol\extensions\cocostudio\src\cocostudio\WidgetReader\WidgetReaderProtocol.h" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="D:\DEV Game\FreeFlow\out\build\Visual Studio Community 2022 Release - amd64\ZERO_CHECK.vcxproj">
+      <Project>{D4B3CE9B-F76D-333C-AA31-E26C64738193}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\DEV Game\FreeFlow\out\build\Visual Studio Community 2022 Release - amd64\engine\3rdparty\ConvertUTF\ConvertUTF.vcxproj">
+      <Project>{EE20362A-98EA-36FB-9A45-5CC81975EA2F}</Project>
+      <Name>ConvertUTF</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\DEV Game\FreeFlow\out\build\Visual Studio Community 2022 Release - amd64\engine\3rdparty\openal\OpenAL.vcxproj">
+      <Project>{3E224E26-6C3A-3A47-BE44-564116E8EF21}</Project>
+      <Name>OpenAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\DEV Game\FreeFlow\out\build\Visual Studio Community 2022 Release - amd64\engine\3rdparty\openal\alcommon.vcxproj">
+      <Project>{A98AA37E-6ACC-3FF3-80E2-A46B860DD8C9}</Project>
+      <Name>alcommon</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\DEV Game\FreeFlow\out\build\Visual Studio Community 2022 Release - amd64\engine\3rdparty\astcenc\astcenc.vcxproj">
+      <Project>{7A6B2CA8-4225-32BA-8F9F-D7DA26FA1B90}</Project>
+      <Name>astcenc</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\DEV Game\FreeFlow\out\build\Visual Studio Community 2022 Release - amd64\engine\axmol\core\axmol.vcxproj">
+      <Project>{22BC4418-4E91-3756-9F3A-312A30B56449}</Project>
+      <Name>axmol</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\DEV Game\FreeFlow\out\build\Visual Studio Community 2022 Release - amd64\engine\3rdparty\box2d\box2d.vcxproj">
+      <Project>{BE3FE606-5408-38B8-B2F2-DC736D36248E}</Project>
+      <Name>box2d</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\DEV Game\FreeFlow\out\build\Visual Studio Community 2022 Release - amd64\engine\3rdparty\bullet\bullet.vcxproj">
+      <Project>{2A92688B-0F17-35B1-8F49-EC12C151ABC0}</Project>
+      <Name>bullet</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\DEV Game\FreeFlow\out\build\Visual Studio Community 2022 Release - amd64\engine\3rdparty\chipmunk\src\chipmunk.vcxproj">
+      <Project>{FBE63C14-F563-3161-B9EC-CFC0B88A1BC6}</Project>
+      <Name>chipmunk</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\DEV Game\FreeFlow\out\build\Visual Studio Community 2022 Release - amd64\engine\3rdparty\clipper2\clipper2.vcxproj">
+      <Project>{EE2C66A3-B493-3E54-9BDF-028B6C2DF09E}</Project>
+      <Name>clipper2</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\DEV Game\FreeFlow\out\build\Visual Studio Community 2022 Release - amd64\engine\3rdparty\doctest\doctest.vcxproj">
+      <Project>{790421BC-F066-3D15-8ED4-3E5E2CC6602F}</Project>
+      <Name>doctest</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\DEV Game\FreeFlow\out\build\Visual Studio Community 2022 Release - amd64\engine\3rdparty\fastlz\fastlz.vcxproj">
+      <Project>{F130E96F-7A6C-3510-9A6E-E7BE2C879956}</Project>
+      <Name>fastlz</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\DEV Game\FreeFlow\out\build\Visual Studio Community 2022 Release - amd64\engine\3rdparty\fmt\fmt.vcxproj">
+      <Project>{1088B3DF-B68A-3955-A5CE-A488BFA095F8}</Project>
+      <Name>fmt</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\DEV Game\FreeFlow\out\build\Visual Studio Community 2022 Release - amd64\engine\3rdparty\freetype\freetype.vcxproj">
+      <Project>{6CB44F80-F2C3-307B-9568-6646991733A0}</Project>
+      <Name>freetype</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\DEV Game\FreeFlow\out\build\Visual Studio Community 2022 Release - amd64\engine\3rdparty\glad\glad.vcxproj">
+      <Project>{3C27D0F0-67CE-36D7-B33C-8441E163E221}</Project>
+      <Name>glad</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\DEV Game\FreeFlow\out\build\Visual Studio Community 2022 Release - amd64\engine\3rdparty\glfw\src\glfw.vcxproj">
+      <Project>{B5BBD0F6-CE20-3289-8C9E-53AF945971C8}</Project>
+      <Name>glfw</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\DEV Game\FreeFlow\out\build\Visual Studio Community 2022 Release - amd64\engine\3rdparty\llhttp\llhttp.vcxproj">
+      <Project>{F3AB7071-5708-34CE-BBBE-8FBCA008FDBA}</Project>
+      <Name>llhttp</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\DEV Game\FreeFlow\out\build\Visual Studio Community 2022 Release - amd64\engine\3rdparty\ogg\ogg.vcxproj">
+      <Project>{D0B5108A-FF07-3B7E-A19E-9F634A4F2543}</Project>
+      <Name>ogg</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\DEV Game\FreeFlow\out\build\Visual Studio Community 2022 Release - amd64\engine\3rdparty\png\png.vcxproj">
+      <Project>{4827F9E6-035C-3361-AC5A-930DD3688C83}</Project>
+      <Name>png</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\DEV Game\FreeFlow\out\build\Visual Studio Community 2022 Release - amd64\engine\3rdparty\poly2tri\poly2tri.vcxproj">
+      <Project>{A227F74C-EC04-318C-9ED4-62096B4F68DD}</Project>
+      <Name>poly2tri</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\DEV Game\FreeFlow\out\build\Visual Studio Community 2022 Release - amd64\engine\3rdparty\pugixml\pugixml.vcxproj">
+      <Project>{FBED9566-EE22-37E5-9367-02F7AAC87D8A}</Project>
+      <Name>pugixml</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\DEV Game\FreeFlow\out\build\Visual Studio Community 2022 Release - amd64\engine\3rdparty\recast\recast.vcxproj">
+      <Project>{C4A68E6E-6445-3C0A-814A-136D3E213363}</Project>
+      <Name>recast</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\DEV Game\FreeFlow\out\build\Visual Studio Community 2022 Release - amd64\engine\3rdparty\simdjson\simdjson.vcxproj">
+      <Project>{4F3A41CF-D6A4-3FBE-AC6F-7419EED0B49E}</Project>
+      <Name>simdjson</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\DEV Game\FreeFlow\out\build\Visual Studio Community 2022 Release - amd64\engine\3rdparty\unzip\unzip.vcxproj">
+      <Project>{685BCAFF-98A5-3907-B8EB-8410AC3EF1C5}</Project>
+      <Name>unzip</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\DEV Game\FreeFlow\out\build\Visual Studio Community 2022 Release - amd64\engine\3rdparty\webp\webp.vcxproj">
+      <Project>{ED91B822-335B-39BE-9BB0-71E44EA44E4D}</Project>
+      <Name>webp</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\DEV Game\FreeFlow\out\build\Visual Studio Community 2022 Release - amd64\engine\3rdparty\websocket-parser\websocket-parser.vcxproj">
+      <Project>{70045B42-3AC8-3069-A5A5-81977EAF51E4}</Project>
+      <Name>websocket-parser</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\DEV Game\FreeFlow\out\build\Visual Studio Community 2022 Release - amd64\engine\3rdparty\xxhash\xxhash.vcxproj">
+      <Project>{95D136E5-24A2-3453-83EA-8202668DCA36}</Project>
+      <Name>xxhash</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\DEV Game\FreeFlow\out\build\Visual Studio Community 2022 Release - amd64\engine\3rdparty\yasio\yasio.vcxproj">
+      <Project>{DF4F863E-F0A6-3CB9-AB4C-0471ECF9D4B4}</Project>
+      <Name>yasio</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+    <Import Project="..\..\..\packages\Microsoft.Web.WebView2\build\native\Microsoft.Web.WebView2.targets" Condition="Exists('..\..\..\packages\Microsoft.Web.WebView2\build\native\Microsoft.Web.WebView2.targets') And ('$(Configuration)'=='Debug' Or '$(Configuration)'=='Release' Or '$(Configuration)'=='MinSizeRel' Or '$(Configuration)'=='RelWithDebInfo')" />
+    <Import Project="C:\Program Files\CMake\share\cmake-3.31\Templates\MSBuild\nasm.targets" />
+  </ImportGroup>
+</Project>

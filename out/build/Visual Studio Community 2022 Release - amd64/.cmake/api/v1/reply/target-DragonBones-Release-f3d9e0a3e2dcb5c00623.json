@@ -1,0 +1,1211 @@
+{
+	"archive" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "/machine:x64",
+				"role" : "flags"
+			}
+		]
+	},
+	"artifacts" : 
+	[
+		{
+			"path" : "lib/Release/DragonBones.lib"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"target_link_libraries",
+			"setup_ax_extension_config",
+			"add_dependencies",
+			"ax_add_3rd",
+			"add_compile_options",
+			"include",
+			"add_definitions",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"C:/dev/axmol/extensions/DragonBones/CMakeLists.txt",
+			"C:/dev/axmol/extensions/CMakeLists.txt",
+			"C:/dev/axmol/3rdparty/CMakeLists.txt",
+			"C:/dev/axmol/cmake/Modules/AXConfigDefine.cmake",
+			"C:/dev/axmol/cmake/Modules/AXBuildSet.cmake",
+			"CMakeLists.txt",
+			"C:/dev/axmol/core/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 5,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 8,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 13,
+				"parent" : 2
+			},
+			{
+				"file" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 488,
+				"parent" : 4
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 215,
+				"parent" : 5
+			},
+			{
+				"file" : 5
+			},
+			{
+				"command" : 6,
+				"file" : 5,
+				"line" : 59,
+				"parent" : 7
+			},
+			{
+				"file" : 4,
+				"parent" : 8
+			},
+			{
+				"command" : 6,
+				"file" : 4,
+				"line" : 44,
+				"parent" : 9
+			},
+			{
+				"file" : 3,
+				"parent" : 10
+			},
+			{
+				"command" : 5,
+				"file" : 3,
+				"line" : 221,
+				"parent" : 11
+			},
+			{
+				"file" : 6
+			},
+			{
+				"command" : 5,
+				"file" : 6,
+				"line" : 47,
+				"parent" : 13
+			},
+			{
+				"command" : 7,
+				"file" : 6,
+				"line" : 148,
+				"parent" : 13
+			},
+			{
+				"command" : 8,
+				"file" : 0,
+				"line" : 6,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "/Zc:char8_t- /DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD"
+				},
+				{
+					"backtrace" : 12,
+					"fragment" : "/GF"
+				},
+				{
+					"backtrace" : 14,
+					"fragment" : "/utf-8"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "/MP"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "/Zm2000"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 3,
+					"define" : "ASTCENC_AVX=0"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "ASTCENC_F16C=0"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "ASTCENC_NEON=0"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "ASTCENC_POPCNT=1"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "ASTCENC_SSE=41"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "AX_ENABLE_3D=1"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "AX_ENABLE_3D_PHYSICS=1"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "AX_ENABLE_AUDIO=1"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "AX_ENABLE_CONSOLE=1"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "AX_ENABLE_MEDIA=1"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "AX_ENABLE_MFMEDIA=1"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "AX_ENABLE_MSEDGE_WEBVIEW2=1"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "AX_ENABLE_NAVMESH=1"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "AX_ENABLE_PHYSICS=1"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "AX_GLES_PROFILE=300"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "AX_SSE_INTRINSICS=1"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "AX_USE_ALSOFT=1"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "BT_USE_SSE_IN_API=1"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "CP_USE_CGTYPES=0"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "CP_USE_DOUBLES=0"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "NOUNCRYPT=1"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "NTCVT_CP_DEFAULT=CP_UTF8"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "OPENSSL_SUPPRESS_DEPRECATED=1"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "P2T_STATIC_EXPORTS"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "PNG_INTEL_SSE_OPT=1"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "UNICODE"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "WIN32"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "YASIO_SSL_BACKEND=1"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "ZLIB_DLL=1"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "_CRT_SECURE_NO_WARNINGS"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "_SCL_SECURE_NO_WARNINGS"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "_UNICODE"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "_WIN32"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "_WINDOWS"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "__SSE4_1__=1"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 16,
+					"path" : "C:/dev/axmol/extensions/DragonBones/src"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "C:/dev/axmol"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "C:/dev/axmol/3rdparty"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "C:/dev/axmol/extensions/scripting"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "C:/dev/axmol/core"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "C:/dev/axmol/core/platform"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "C:/dev/axmol/core/base"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "C:/dev/axmol/core/audio"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "C:/dev/axmol/core/platform/win32"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "C:/dev/axmol/3rdparty/robin-map/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "C:/dev/axmol/3rdparty/freetype/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "C:/dev/axmol/3rdparty/openal"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "C:/dev/axmol/3rdparty/glfw/include/GLFW"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "C:/dev/axmol/3rdparty/fmt/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "C:/dev/axmol/3rdparty/websocket-parser"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "C:/dev/axmol/3rdparty/png"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "C:/dev/axmol/3rdparty/box2d/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "C:/dev/axmol/3rdparty/chipmunk/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "D:/DEV Game/FreeFlow/out/build/Visual Studio Community 2022 Release - amd64/engine/3rdparty/freetype/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "C:/dev/axmol/3rdparty/recast/.."
+				},
+				{
+					"backtrace" : 3,
+					"path" : "C:/dev/axmol/3rdparty/bullet/."
+				},
+				{
+					"backtrace" : 3,
+					"path" : "C:/dev/axmol/3rdparty/webp/src/webp"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "C:/dev/axmol/3rdparty/pugixml"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "C:/dev/axmol/3rdparty/xxhash/."
+				},
+				{
+					"backtrace" : 3,
+					"path" : "C:/dev/axmol/3rdparty/fastlz"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "C:/dev/axmol/3rdparty/clipper2/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "C:/dev/axmol/3rdparty/ConvertUTF/."
+				},
+				{
+					"backtrace" : 3,
+					"path" : "C:/dev/axmol/3rdparty/poly2tri/.."
+				},
+				{
+					"backtrace" : 3,
+					"path" : "C:/dev/axmol/3rdparty/astcenc/.."
+				},
+				{
+					"backtrace" : 3,
+					"path" : "C:/dev/axmol/3rdparty/openal/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "C:/dev/axmol/3rdparty/openal/include/AL"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "C:/dev/axmol/3rdparty/ogg/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "C:/dev/axmol/3rdparty/glad/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "C:/dev/axmol/3rdparty/glfw/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "C:/dev/axmol/3rdparty/unzip"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "C:/dev/axmol/3rdparty/llhttp/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "C:/dev/axmol/3rdparty/yasio"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "C:/dev/axmol/3rdparty/zlib/_x/include"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "C:/dev/axmol/3rdparty/jpeg-turbo/_x/include"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "C:/dev/axmol/3rdparty/openssl/_x/include"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "C:/dev/axmol/3rdparty/curl/_x/include"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					3
+				],
+				"standard" : "20"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				3,
+				5,
+				7,
+				10,
+				12,
+				14,
+				17,
+				19,
+				21,
+				23,
+				25,
+				27,
+				30,
+				32,
+				34,
+				36,
+				38,
+				41,
+				45,
+				48,
+				50,
+				52,
+				54,
+				56,
+				58,
+				60,
+				62,
+				64,
+				66,
+				68,
+				70,
+				72,
+				74,
+				76
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 3,
+			"id" : "axmol::@bf69472f26d8c3f79a15"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "fmt::@172b82096f85eddb0020"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "websocket-parser::@7dd8a899c4dcd334c423"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "chipmunk::@e030cd6fde125c56595a"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "png::@36cc07a3e1ba7c2bde31"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "box2d::@5b8e16bb6bf48d305e92"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "bullet::@067658e0fbb0fb148693"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "freetype::@b20ff8c2dc78e0658ee3"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "recast::@daa12a0718eb5667b377"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "pugixml::@a71f8eacd2382805b307"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "fastlz::@d215ee184e8bbb0fbbe4"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "webp::@c74d47a8972f79274125"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "xxhash::@756c2fb412866390bb07"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "ConvertUTF::@8ef87820ac91d1b1aaab"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "clipper2::@3fd6c85fdb7182944ebd"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "poly2tri::@078c79c6faf9714b8627"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "astcenc::@730cd7a4979c4081e0bb"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "alcommon::@1c3fe5358577ba279a79"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "OpenAL::@1c3fe5358577ba279a79"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "ogg::@6fb0191cdcece2d50006"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "glad::@b0b000e275056f88e885"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "glfw::@5aec3c3994f13e9ca945"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "unzip::@6d5ba6f3a180a514ac31"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "llhttp::@c4737d653051f9356e20"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "simdjson::@bfa1e1ea590cf53af7d7"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "yasio::@a7174f46b4b9a2b4a7bf"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "doctest::@980becde4e1425f521f4"
+		},
+		{
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+		}
+	],
+	"folder" : 
+	{
+		"name" : "Extensions"
+	},
+	"id" : "DragonBones::@10d352b61c57d6d47c94",
+	"name" : "DragonBones",
+	"nameOnDisk" : "DragonBones.lib",
+	"paths" : 
+	{
+		"build" : "engine/extensions/DragonBones",
+		"source" : "C:/dev/axmol/extensions/DragonBones"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files\\src\\DragonBones",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9
+			]
+		},
+		{
+			"name" : "Source Files\\src\\DragonBones\\animation",
+			"sourceIndexes" : 
+			[
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20
+			]
+		},
+		{
+			"name" : "Source Files\\src\\DragonBones\\armature",
+			"sourceIndexes" : 
+			[
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33
+			]
+		},
+		{
+			"name" : "Source Files\\src\\DragonBones\\core",
+			"sourceIndexes" : 
+			[
+				34,
+				35,
+				36,
+				37
+			]
+		},
+		{
+			"name" : "Source Files\\src\\DragonBones\\event",
+			"sourceIndexes" : 
+			[
+				38,
+				39,
+				40
+			]
+		},
+		{
+			"name" : "Source Files\\src\\DragonBones\\factory",
+			"sourceIndexes" : 
+			[
+				41,
+				42
+			]
+		},
+		{
+			"name" : "Source Files\\src\\DragonBones\\geom",
+			"sourceIndexes" : 
+			[
+				43,
+				44,
+				45,
+				46,
+				47,
+				48,
+				49
+			]
+		},
+		{
+			"name" : "Source Files\\src\\DragonBones\\model",
+			"sourceIndexes" : 
+			[
+				50,
+				51,
+				52,
+				53,
+				54,
+				55,
+				56,
+				57,
+				58,
+				59,
+				60,
+				61,
+				62,
+				63,
+				64,
+				65,
+				66,
+				67,
+				68,
+				69,
+				70,
+				71
+			]
+		},
+		{
+			"name" : "Source Files\\src\\DragonBones\\parser",
+			"sourceIndexes" : 
+			[
+				72,
+				73,
+				74,
+				75,
+				76,
+				77
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/dev/axmol/extensions/DragonBones/src/DragonBones/CCArmatureDisplay.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/dev/axmol/extensions/DragonBones/src/DragonBones/CCArmatureDisplay.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/dev/axmol/extensions/DragonBones/src/DragonBones/CCDragonBonesHeaders.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/dev/axmol/extensions/DragonBones/src/DragonBones/CCFactory.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/dev/axmol/extensions/DragonBones/src/DragonBones/CCFactory.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/dev/axmol/extensions/DragonBones/src/DragonBones/CCSlot.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/dev/axmol/extensions/DragonBones/src/DragonBones/CCSlot.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/dev/axmol/extensions/DragonBones/src/DragonBones/CCTextureAtlasData.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/dev/axmol/extensions/DragonBones/src/DragonBones/CCTextureAtlasData.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/dev/axmol/extensions/DragonBones/src/DragonBones/DragonBonesHeaders.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/dev/axmol/extensions/DragonBones/src/DragonBones/animation/Animation.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/dev/axmol/extensions/DragonBones/src/DragonBones/animation/Animation.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/dev/axmol/extensions/DragonBones/src/DragonBones/animation/AnimationState.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/dev/axmol/extensions/DragonBones/src/DragonBones/animation/AnimationState.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/dev/axmol/extensions/DragonBones/src/DragonBones/animation/BaseTimelineState.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/dev/axmol/extensions/DragonBones/src/DragonBones/animation/BaseTimelineState.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/dev/axmol/extensions/DragonBones/src/DragonBones/animation/IAnimatable.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/dev/axmol/extensions/DragonBones/src/DragonBones/animation/TimelineState.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/dev/axmol/extensions/DragonBones/src/DragonBones/animation/TimelineState.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/dev/axmol/extensions/DragonBones/src/DragonBones/animation/WorldClock.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/dev/axmol/extensions/DragonBones/src/DragonBones/animation/WorldClock.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/dev/axmol/extensions/DragonBones/src/DragonBones/armature/Armature.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/dev/axmol/extensions/DragonBones/src/DragonBones/armature/Armature.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/dev/axmol/extensions/DragonBones/src/DragonBones/armature/Bone.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/dev/axmol/extensions/DragonBones/src/DragonBones/armature/Bone.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/dev/axmol/extensions/DragonBones/src/DragonBones/armature/Constraint.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/dev/axmol/extensions/DragonBones/src/DragonBones/armature/Constraint.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/dev/axmol/extensions/DragonBones/src/DragonBones/armature/DeformVertices.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/dev/axmol/extensions/DragonBones/src/DragonBones/armature/DeformVertices.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/dev/axmol/extensions/DragonBones/src/DragonBones/armature/IArmatureProxy.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/dev/axmol/extensions/DragonBones/src/DragonBones/armature/Slot.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/dev/axmol/extensions/DragonBones/src/DragonBones/armature/Slot.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/dev/axmol/extensions/DragonBones/src/DragonBones/armature/TransformObject.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/dev/axmol/extensions/DragonBones/src/DragonBones/armature/TransformObject.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/dev/axmol/extensions/DragonBones/src/DragonBones/core/BaseObject.cpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/dev/axmol/extensions/DragonBones/src/DragonBones/core/BaseObject.h",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/dev/axmol/extensions/DragonBones/src/DragonBones/core/DragonBones.cpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/dev/axmol/extensions/DragonBones/src/DragonBones/core/DragonBones.h",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/dev/axmol/extensions/DragonBones/src/DragonBones/event/EventObject.cpp",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/dev/axmol/extensions/DragonBones/src/DragonBones/event/EventObject.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/dev/axmol/extensions/DragonBones/src/DragonBones/event/IEventDispatcher.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/dev/axmol/extensions/DragonBones/src/DragonBones/factory/BaseFactory.cpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/dev/axmol/extensions/DragonBones/src/DragonBones/factory/BaseFactory.h",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/dev/axmol/extensions/DragonBones/src/DragonBones/geom/ColorTransform.h",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/dev/axmol/extensions/DragonBones/src/DragonBones/geom/Matrix.h",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/dev/axmol/extensions/DragonBones/src/DragonBones/geom/Point.cpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/dev/axmol/extensions/DragonBones/src/DragonBones/geom/Point.h",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/dev/axmol/extensions/DragonBones/src/DragonBones/geom/Rectangle.h",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/dev/axmol/extensions/DragonBones/src/DragonBones/geom/Transform.cpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/dev/axmol/extensions/DragonBones/src/DragonBones/geom/Transform.h",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/dev/axmol/extensions/DragonBones/src/DragonBones/model/AnimationConfig.cpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/dev/axmol/extensions/DragonBones/src/DragonBones/model/AnimationConfig.h",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/dev/axmol/extensions/DragonBones/src/DragonBones/model/AnimationData.cpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/dev/axmol/extensions/DragonBones/src/DragonBones/model/AnimationData.h",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/dev/axmol/extensions/DragonBones/src/DragonBones/model/ArmatureData.cpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/dev/axmol/extensions/DragonBones/src/DragonBones/model/ArmatureData.h",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/dev/axmol/extensions/DragonBones/src/DragonBones/model/BoundingBoxData.cpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/dev/axmol/extensions/DragonBones/src/DragonBones/model/BoundingBoxData.h",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/dev/axmol/extensions/DragonBones/src/DragonBones/model/CanvasData.cpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/dev/axmol/extensions/DragonBones/src/DragonBones/model/CanvasData.h",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/dev/axmol/extensions/DragonBones/src/DragonBones/model/ConstraintData.cpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/dev/axmol/extensions/DragonBones/src/DragonBones/model/ConstraintData.h",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/dev/axmol/extensions/DragonBones/src/DragonBones/model/DisplayData.cpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/dev/axmol/extensions/DragonBones/src/DragonBones/model/DisplayData.h",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/dev/axmol/extensions/DragonBones/src/DragonBones/model/DragonBonesData.cpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/dev/axmol/extensions/DragonBones/src/DragonBones/model/DragonBonesData.h",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/dev/axmol/extensions/DragonBones/src/DragonBones/model/SkinData.cpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/dev/axmol/extensions/DragonBones/src/DragonBones/model/SkinData.h",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/dev/axmol/extensions/DragonBones/src/DragonBones/model/TextureAtlasData.cpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/dev/axmol/extensions/DragonBones/src/DragonBones/model/TextureAtlasData.h",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/dev/axmol/extensions/DragonBones/src/DragonBones/model/UserData.cpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/dev/axmol/extensions/DragonBones/src/DragonBones/model/UserData.h",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/dev/axmol/extensions/DragonBones/src/DragonBones/parser/BinaryDataParser.cpp",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/dev/axmol/extensions/DragonBones/src/DragonBones/parser/BinaryDataParser.h",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/dev/axmol/extensions/DragonBones/src/DragonBones/parser/DataParser.cpp",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/dev/axmol/extensions/DragonBones/src/DragonBones/parser/DataParser.h",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/dev/axmol/extensions/DragonBones/src/DragonBones/parser/JSONDataParser.cpp",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/dev/axmol/extensions/DragonBones/src/DragonBones/parser/JSONDataParser.h",
+			"sourceGroupIndex" : 8
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

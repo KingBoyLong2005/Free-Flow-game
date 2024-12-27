@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\dev\axmol\extensions\physics-nodes\src\physics-nodes\PhysicsDebugNode.cpp">
+      <Filter>Source Files\src\physics-nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\axmol\extensions\physics-nodes\src\physics-nodes\PhysicsDebugNodeBox2D.cpp">
+      <Filter>Source Files\src\physics-nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\axmol\extensions\physics-nodes\src\physics-nodes\PhysicsDebugNodeChipmunk2D.cpp">
+      <Filter>Source Files\src\physics-nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\axmol\extensions\physics-nodes\src\physics-nodes\PhysicsSprite.cpp">
+      <Filter>Source Files\src\physics-nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\axmol\extensions\physics-nodes\src\physics-nodes\PhysicsSpriteBox2D.cpp">
+      <Filter>Source Files\src\physics-nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\axmol\extensions\physics-nodes\src\physics-nodes\PhysicsSpriteChipmunk2D.cpp">
+      <Filter>Source Files\src\physics-nodes</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\dev\axmol\extensions\physics-nodes\src\physics-nodes\PhysicsDebugNode.h">
+      <Filter>Source Files\src\physics-nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\axmol\extensions\physics-nodes\src\physics-nodes\PhysicsDebugNodeBox2D.h">
+      <Filter>Source Files\src\physics-nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\axmol\extensions\physics-nodes\src\physics-nodes\PhysicsDebugNodeChipmunk2D.h">
+      <Filter>Source Files\src\physics-nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\axmol\extensions\physics-nodes\src\physics-nodes\PhysicsSprite.h">
+      <Filter>Source Files\src\physics-nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\axmol\extensions\physics-nodes\src\physics-nodes\PhysicsSpriteBox2D.h">
+      <Filter>Source Files\src\physics-nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\axmol\extensions\physics-nodes\src\physics-nodes\PhysicsSpriteChipmunk2D.h">
+      <Filter>Source Files\src\physics-nodes</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\dev\axmol\extensions\physics-nodes\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{E3D90C80-D58F-332D-8095-D0A32B0C215C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\src">
+      <UniqueIdentifier>{25199533-0F74-32D3-A91A-BBA4DF7A64D6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\src\physics-nodes">
+      <UniqueIdentifier>{0C9D4B36-F0A5-30BB-848C-2FE24533D0F1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

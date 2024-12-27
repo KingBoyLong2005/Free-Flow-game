@@ -1,0 +1,18 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDependentOption.cmake
+C:/dev/axmol/core/2d/CMakeLists.txt
+C:/dev/axmol/core/3d/CMakeLists.txt
+C:/dev/axmol/core/CMakeLists.txt
+C:/dev/axmol/core/audio/CMakeLists.txt
+C:/dev/axmol/core/axmolver.h.in
+C:/dev/axmol/core/base/CMakeLists.txt
+C:/dev/axmol/core/math/CMakeLists.txt
+C:/dev/axmol/core/navmesh/CMakeLists.txt
+C:/dev/axmol/core/network/CMakeLists.txt
+C:/dev/axmol/core/physics/CMakeLists.txt
+C:/dev/axmol/core/physics3d/CMakeLists.txt
+C:/dev/axmol/core/platform/CMakeLists.txt
+C:/dev/axmol/core/renderer/CMakeLists.txt
+C:/dev/axmol/core/renderer/RenderConsts.h.in
+C:/dev/axmol/core/ui/CMakeLists.txt
+C:\Program Files\CMake\share\cmake-3.31\Templates\MSBuild\nasm.props.in
