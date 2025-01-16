@@ -1,0 +1,530 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>frames</key>
+        <dict>
+            <key>IconButton_Large_Background_Circle.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{178,179}</string>
+                <key>spriteSourceSize</key>
+                <string>{178,179}</string>
+                <key>textureRect</key>
+                <string>{{1,2149},{178,179}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>8 9 10 1 8 10 6 7 8 5 6 8 3 4 5 2 3 5 1 2 5 1 5 8 0 1 10</string>
+                <key>vertices</key>
+                <string>160 26 178 62 178 116 160 152 128 175 108 179 59 179 0 148 0 62 28 0 121 0</string>
+                <key>verticesUV</key>
+                <string>161 2175 179 2211 179 2265 161 2301 129 2324 109 2328 60 2328 1 2297 1 2211 29 2149 122 2149</string>
+            </dict>
+            <key>IconButton_Large_Background_Rounded.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{179,179}</string>
+                <key>spriteSourceSize</key>
+                <string>{179,179}</string>
+                <key>textureRect</key>
+                <string>{{182,1094},{179,179}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>0 6 7 4 5 6 0 1 4 2 3 4 1 2 4 0 4 6</string>
+                <key>vertices</key>
+                <string>179 33 179 179 19 179 3 159 0 135 0 16 27 0 166 0</string>
+                <key>verticesUV</key>
+                <string>361 1127 361 1273 201 1273 185 1253 182 1229 182 1110 209 1094 348 1094</string>
+            </dict>
+            <key>IconButton_Large_Background_Square.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{179,179}</string>
+                <key>spriteSourceSize</key>
+                <string>{179,179}</string>
+                <key>textureRect</key>
+                <string>{{182,913},{179,179}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>1 2 3 0 1 3</string>
+                <key>vertices</key>
+                <string>179 179 0 179 0 0 179 0</string>
+                <key>verticesUV</key>
+                <string>361 1092 182 1092 182 913 361 913</string>
+            </dict>
+            <key>IconButton_Large_Blank_Circle.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{178,179}</string>
+                <key>spriteSourceSize</key>
+                <string>{178,179}</string>
+                <key>textureRect</key>
+                <string>{{181,1999},{178,179}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>6 7 8 5 6 8 1 5 8 2 3 4 1 2 4 1 4 5 0 1 8</string>
+                <key>vertices</key>
+                <string>161 21 178 65 178 126 136 179 49 179 0 130 0 48 48 0 115 0</string>
+                <key>verticesUV</key>
+                <string>342 2020 359 2064 359 2125 317 2178 230 2178 181 2129 181 2047 229 1999 296 1999</string>
+            </dict>
+            <key>IconButton_Large_Blank_Rounded.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{179,179}</string>
+                <key>spriteSourceSize</key>
+                <string>{179,179}</string>
+                <key>textureRect</key>
+                <string>{{182,732},{179,179}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>0 1 5 2 5 1 3 5 2 3 4 5 0 5 6</string>
+                <key>vertices</key>
+                <string>179 28 179 179 0 179 0 13 29 1 44 0 164 0</string>
+                <key>verticesUV</key>
+                <string>361 760 361 911 182 911 182 745 211 733 226 732 346 732</string>
+            </dict>
+            <key>IconButton_Large_Blank_Square.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{179,179}</string>
+                <key>spriteSourceSize</key>
+                <string>{179,179}</string>
+                <key>textureRect</key>
+                <string>{{182,551},{179,179}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>0 3 4 0 1 2 0 2 3</string>
+                <key>vertices</key>
+                <string>179 5 179 179 0 179 0 0 177 0</string>
+                <key>verticesUV</key>
+                <string>361 556 361 730 182 730 182 551 359 551</string>
+            </dict>
+            <key>IconButton_Large_Blue_Circle.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{178,179}</string>
+                <key>spriteSourceSize</key>
+                <string>{178,179}</string>
+                <key>textureRect</key>
+                <string>{{1,1968},{178,179}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>6 7 8 5 6 8 1 2 5 3 4 5 2 3 5 1 5 8 0 1 8</string>
+                <key>vertices</key>
+                <string>178 37 178 130 129 179 49 179 0 130 0 68 9 39 49 0 121 0</string>
+                <key>verticesUV</key>
+                <string>179 2005 179 2098 130 2147 50 2147 1 2098 1 2036 10 2007 50 1968 122 1968</string>
+            </dict>
+            <key>IconButton_Large_Blue_Rounded.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{179,179}</string>
+                <key>spriteSourceSize</key>
+                <string>{179,179}</string>
+                <key>textureRect</key>
+                <string>{{182,370},{179,179}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>2 5 6 3 4 5 2 3 5 0 1 2 0 2 6</string>
+                <key>vertices</key>
+                <string>179 15 179 175 133 179 0 179 0 14 27 0 151 0</string>
+                <key>verticesUV</key>
+                <string>361 385 361 545 315 549 182 549 182 384 209 370 333 370</string>
+            </dict>
+            <key>IconButton_Large_Blue_Square.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{179,179}</string>
+                <key>spriteSourceSize</key>
+                <string>{179,179}</string>
+                <key>textureRect</key>
+                <string>{{189,189},{179,179}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>0 3 4 0 1 2 0 2 3</string>
+                <key>vertices</key>
+                <string>179 5 179 179 0 179 0 0 177 0</string>
+                <key>verticesUV</key>
+                <string>368 194 368 368 189 368 189 189 366 189</string>
+            </dict>
+            <key>IconButton_Large_Circle.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{178,179}</string>
+                <key>spriteSourceSize</key>
+                <string>{178,179}</string>
+                <key>textureRect</key>
+                <string>{{136,1818},{178,179}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>0 1 9 7 8 9 7 4 6 7 9 4 4 5 6 2 3 4 1 2 4 1 4 9 0 9 10</string>
+                <key>vertices</key>
+                <string>158 25 178 60 178 126 136 179 70 179 33 176 0 120 0 60 24 15 64 0 122 0</string>
+                <key>verticesUV</key>
+                <string>294 1843 314 1878 314 1944 272 1997 206 1997 169 1994 136 1938 136 1878 160 1833 200 1818 258 1818</string>
+            </dict>
+            <key>IconButton_Large_Green_Circle.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{178,179}</string>
+                <key>spriteSourceSize</key>
+                <string>{178,179}</string>
+                <key>textureRect</key>
+                <string>{{182,1637},{178,179}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>6 7 8 5 6 8 1 2 5 3 4 5 2 3 5 1 5 8 0 1 8</string>
+                <key>vertices</key>
+                <string>178 37 178 130 129 179 49 179 0 130 0 68 9 39 49 0 121 0</string>
+                <key>verticesUV</key>
+                <string>360 1674 360 1767 311 1816 231 1816 182 1767 182 1705 191 1676 231 1637 303 1637</string>
+            </dict>
+            <key>IconButton_Large_Green_Rounded.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{179,179}</string>
+                <key>spriteSourceSize</key>
+                <string>{179,179}</string>
+                <key>textureRect</key>
+                <string>{{1,1644},{179,179}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>1 2 3 0 1 3</string>
+                <key>vertices</key>
+                <string>179 179 0 179 0 0 179 0</string>
+                <key>verticesUV</key>
+                <string>180 1823 1 1823 1 1644 180 1644</string>
+            </dict>
+            <key>IconButton_Large_Green_Square.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{179,179}</string>
+                <key>spriteSourceSize</key>
+                <string>{179,179}</string>
+                <key>textureRect</key>
+                <string>{{1,1463},{179,179}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>0 3 4 0 1 2 0 2 3</string>
+                <key>vertices</key>
+                <string>179 5 179 179 0 179 0 0 177 0</string>
+                <key>verticesUV</key>
+                <string>180 1468 180 1642 1 1642 1 1463 178 1463</string>
+            </dict>
+            <key>IconButton_Large_GreyOutline_Circle.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{186,186}</string>
+                <key>spriteSourceSize</key>
+                <string>{186,186}</string>
+                <key>textureRect</key>
+                <string>{{189,1},{186,186}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>6 7 8 4 6 8 4 5 6 3 4 8 1 2 3 1 3 8 0 1 8</string>
+                <key>vertices</key>
+                <string>152 7 186 58 186 142 132 186 60 186 0 146 0 55 44 0 114 0</string>
+                <key>verticesUV</key>
+                <string>341 8 375 59 375 143 321 187 249 187 189 147 189 56 233 1 303 1</string>
+            </dict>
+            <key>IconButton_Large_GreyOutline_Rounded.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{186,186}</string>
+                <key>spriteSourceSize</key>
+                <string>{186,186}</string>
+                <key>textureRect</key>
+                <string>{{1,189},{186,186}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>0 6 7 4 5 6 2 4 6 2 3 4 0 1 2 0 2 6</string>
+                <key>vertices</key>
+                <string>186 24 186 166 160 186 0 186 0 38 10 3 49 0 162 0</string>
+                <key>verticesUV</key>
+                <string>187 213 187 355 161 375 1 375 1 227 11 192 50 189 163 189</string>
+            </dict>
+            <key>IconButton_Large_GreyOutline_Square.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{186,186}</string>
+                <key>spriteSourceSize</key>
+                <string>{186,186}</string>
+                <key>textureRect</key>
+                <string>{{1,1},{186,186}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>1 2 3 0 1 3</string>
+                <key>vertices</key>
+                <string>186 186 0 186 0 0 186 0</string>
+                <key>verticesUV</key>
+                <string>187 187 1 187 1 1 187 1</string>
+            </dict>
+            <key>IconButton_Large_Orange_Circle.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{178,179}</string>
+                <key>spriteSourceSize</key>
+                <string>{178,179}</string>
+                <key>textureRect</key>
+                <string>{{182,1456},{178,179}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>1 9 10 7 8 9 6 7 9 4 9 1 4 5 6 1 2 3 1 3 4 4 6 9 0 1 10</string>
+                <key>vertices</key>
+                <string>163 28 178 65 178 130 129 179 62 179 26 162 0 123 0 51 42 2 71 0 121 0</string>
+                <key>verticesUV</key>
+                <string>345 1484 360 1521 360 1586 311 1635 244 1635 208 1618 182 1579 182 1507 224 1458 253 1456 303 1456</string>
+            </dict>
+            <key>IconButton_Large_Orange_Rounded.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{179,179}</string>
+                <key>spriteSourceSize</key>
+                <string>{179,179}</string>
+                <key>textureRect</key>
+                <string>{{1,1282},{179,179}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>3 4 5 0 3 5 1 2 3 0 1 3</string>
+                <key>vertices</key>
+                <string>179 179 31 179 2 167 0 133 0 0 179 0</string>
+                <key>verticesUV</key>
+                <string>180 1461 32 1461 3 1449 1 1415 1 1282 180 1282</string>
+            </dict>
+            <key>IconButton_Large_Orange_Square.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{179,179}</string>
+                <key>spriteSourceSize</key>
+                <string>{179,179}</string>
+                <key>textureRect</key>
+                <string>{{1,1101},{179,179}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>0 1 4 2 3 4 1 2 4 0 4 5</string>
+                <key>vertices</key>
+                <string>179 4 179 179 0 179 0 2 5 0 175 0</string>
+                <key>verticesUV</key>
+                <string>180 1105 180 1280 1 1280 1 1103 6 1101 176 1101</string>
+            </dict>
+            <key>IconButton_Large_Red_Circle.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{178,179}</string>
+                <key>spriteSourceSize</key>
+                <string>{178,179}</string>
+                <key>textureRect</key>
+                <string>{{182,1275},{178,179}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>1 8 9 6 7 8 5 6 8 1 2 5 3 4 5 2 3 5 1 5 8 0 1 9</string>
+                <key>vertices</key>
+                <string>178 33 178 128 136 179 45 179 7 137 0 112 0 63 22 14 66 0 119 0</string>
+                <key>verticesUV</key>
+                <string>360 1308 360 1403 318 1454 227 1454 189 1412 182 1387 182 1338 204 1289 248 1275 301 1275</string>
+            </dict>
+            <key>IconButton_Large_Red_Rounded.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{179,179}</string>
+                <key>spriteSourceSize</key>
+                <string>{179,179}</string>
+                <key>textureRect</key>
+                <string>{{1,920},{179,179}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>0 3 4 0 2 3 0 1 2</string>
+                <key>vertices</key>
+                <string>179 179 0 179 0 22 22 0 179 0</string>
+                <key>verticesUV</key>
+                <string>180 1099 1 1099 1 942 23 920 180 920</string>
+            </dict>
+            <key>IconButton_Large_Red_Square.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{179,179}</string>
+                <key>spriteSourceSize</key>
+                <string>{179,179}</string>
+                <key>textureRect</key>
+                <string>{{1,739},{179,179}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>1 2 3 0 1 3</string>
+                <key>vertices</key>
+                <string>179 179 0 179 0 0 179 0</string>
+                <key>verticesUV</key>
+                <string>180 918 1 918 1 739 180 739</string>
+            </dict>
+            <key>IconButton_Large_Rounded.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{179,179}</string>
+                <key>spriteSourceSize</key>
+                <string>{179,179}</string>
+                <key>textureRect</key>
+                <string>{{1,558},{179,179}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>0 5 6 3 4 5 5 0 1 1 2 3 5 1 3</string>
+                <key>vertices</key>
+                <string>179 22 179 179 0 179 0 36 10 3 43 0 157 0</string>
+                <key>verticesUV</key>
+                <string>180 580 180 737 1 737 1 594 11 561 44 558 158 558</string>
+            </dict>
+            <key>IconButton_Large_Square.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{179,179}</string>
+                <key>spriteSourceSize</key>
+                <string>{179,179}</string>
+                <key>textureRect</key>
+                <string>{{1,377},{179,179}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>0 3 4 0 1 2 0 2 3</string>
+                <key>vertices</key>
+                <string>179 5 179 179 0 179 0 0 177 0</string>
+                <key>verticesUV</key>
+                <string>180 382 180 556 1 556 1 377 178 377</string>
+            </dict>
+        </dict>
+        <key>metadata</key>
+        <dict>
+            <key>format</key>
+            <integer>3</integer>
+            <key>pixelFormat</key>
+            <string>RGBA8888</string>
+            <key>premultiplyAlpha</key>
+            <false/>
+            <key>realTextureFileName</key>
+            <string>ButtonsIcons.png</string>
+            <key>size</key>
+            <string>{376,2329}</string>
+            <key>smartupdate</key>
+            <string>$TexturePacker:SmartUpdate:7298cfeb18d5d1f3d47155e83e0e2a8c:70df61f45b2aa0d92fe5ff5b3ec698f1:cb09aecc9975d0f901de702bf0c3f198$</string>
+            <key>textureFileName</key>
+            <string>ButtonsIcons.png</string>
+        </dict>
+    </dict>
+</plist>

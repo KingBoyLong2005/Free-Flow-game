@@ -1,0 +1,1307 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>frames</key>
+        <dict>
+            <key>ScrollBar_Blank_Base.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{576,66}</string>
+                <key>spriteSourceSize</key>
+                <string>{576,66}</string>
+                <key>textureRect</key>
+                <string>{{78,356},{576,66}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>1 2 3 0 1 3</string>
+                <key>vertices</key>
+                <string>576 66 0 66 0 0 576 0</string>
+                <key>verticesUV</key>
+                <string>654 422 78 422 78 356 654 356</string>
+            </dict>
+            <key>ScrollBar_Blank_Button.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{81,83}</string>
+                <key>spriteSourceSize</key>
+                <string>{81,83}</string>
+                <key>textureRect</key>
+                <string>{{2691,617},{81,83}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>4 5 6 1 2 4 2 3 4 0 1 4 0 4 6</string>
+                <key>vertices</key>
+                <string>81 21 81 62 60 83 21 83 0 62 0 0 60 0</string>
+                <key>verticesUV</key>
+                <string>2772 638 2772 679 2751 700 2712 700 2691 679 2691 617 2751 617</string>
+            </dict>
+            <key>ScrollBar_Blank_Pointer.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{70,59}</string>
+                <key>spriteSourceSize</key>
+                <string>{70,59}</string>
+                <key>textureRect</key>
+                <string>{{656,380},{70,59}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>3 4 5 0 3 5 1 2 3 0 1 3</string>
+                <key>vertices</key>
+                <string>70 27 45 59 24 59 0 23 0 0 70 0</string>
+                <key>verticesUV</key>
+                <string>726 407 701 439 680 439 656 403 656 380 726 380</string>
+            </dict>
+            <key>ScrollBar_Blank_Scroller.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{285,80}</string>
+                <key>spriteSourceSize</key>
+                <string>{285,80}</string>
+                <key>textureRect</key>
+                <string>{{2192,450},{285,80}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>1 2 3 0 1 3</string>
+                <key>vertices</key>
+                <string>285 80 0 80 0 0 285 0</string>
+                <key>verticesUV</key>
+                <string>2477 530 2192 530 2192 450 2477 450</string>
+            </dict>
+            <key>ScrollBar_Blue_Base.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{576,66}</string>
+                <key>spriteSourceSize</key>
+                <string>{576,66}</string>
+                <key>textureRect</key>
+                <string>{{73,220},{576,66}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>2 3 4 1 2 4 0 1 4</string>
+                <key>vertices</key>
+                <string>576 19 576 66 0 66 0 0 567 0</string>
+                <key>verticesUV</key>
+                <string>649 239 649 286 73 286 73 220 640 220</string>
+            </dict>
+            <key>ScrollBar_Blue_Button.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{81,83}</string>
+                <key>spriteSourceSize</key>
+                <string>{81,83}</string>
+                <key>textureRect</key>
+                <string>{{2691,532},{81,83}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>0 5 6 4 0 3 4 5 0 3 1 2 3 0 1</string>
+                <key>vertices</key>
+                <string>81 62 60 83 21 83 0 62 0 21 21 0 81 0</string>
+                <key>verticesUV</key>
+                <string>2772 594 2751 615 2712 615 2691 594 2691 553 2712 532 2772 532</string>
+            </dict>
+            <key>ScrollBar_Blue_Pointer.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{70,59}</string>
+                <key>spriteSourceSize</key>
+                <string>{70,59}</string>
+                <key>textureRect</key>
+                <string>{{653,227},{70,59}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>3 4 5 0 3 5 1 2 3 0 1 3</string>
+                <key>vertices</key>
+                <string>70 32 43 59 24 59 0 23 0 0 70 0</string>
+                <key>verticesUV</key>
+                <string>723 259 696 286 677 286 653 250 653 227 723 227</string>
+            </dict>
+            <key>ScrollBar_Blue_Scroller.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{285,80}</string>
+                <key>spriteSourceSize</key>
+                <string>{285,80}</string>
+                <key>textureRect</key>
+                <string>{{2174,532},{285,80}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>1 2 3 0 1 3</string>
+                <key>vertices</key>
+                <string>285 80 0 80 0 0 285 0</string>
+                <key>verticesUV</key>
+                <string>2459 612 2174 612 2174 532 2459 532</string>
+            </dict>
+            <key>ScrollBar_Button.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{81,83}</string>
+                <key>spriteSourceSize</key>
+                <string>{81,83}</string>
+                <key>textureRect</key>
+                <string>{{2664,188},{81,83}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>0 5 6 4 0 3 4 5 0 3 1 2 3 0 1</string>
+                <key>vertices</key>
+                <string>81 62 60 83 21 83 0 62 0 21 21 0 81 0</string>
+                <key>verticesUV</key>
+                <string>2745 250 2724 271 2685 271 2664 250 2664 209 2685 188 2745 188</string>
+            </dict>
+            <key>ScrollBar_Orange_Base.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{576,67}</string>
+                <key>spriteSourceSize</key>
+                <string>{576,67}</string>
+                <key>textureRect</key>
+                <string>{{901,36},{576,67}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>1 2 3 0 1 3</string>
+                <key>vertices</key>
+                <string>576 67 0 67 0 0 576 0</string>
+                <key>verticesUV</key>
+                <string>1477 103 901 103 901 36 1477 36</string>
+            </dict>
+            <key>ScrollBar_Orange_Button.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{81,83}</string>
+                <key>spriteSourceSize</key>
+                <string>{81,83}</string>
+                <key>textureRect</key>
+                <string>{{2664,88},{81,83}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>0 5 6 3 4 0 3 1 2 4 5 0 3 0 1</string>
+                <key>vertices</key>
+                <string>81 62 60 83 20 83 0 63 0 21 21 0 81 0</string>
+                <key>verticesUV</key>
+                <string>2745 150 2724 171 2684 171 2664 151 2664 109 2685 88 2745 88</string>
+            </dict>
+            <key>ScrollBar_Orange_Pointer.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{70,59}</string>
+                <key>spriteSourceSize</key>
+                <string>{70,59}</string>
+                <key>textureRect</key>
+                <string>{{51,541},{70,59}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>4 5 6 0 4 6 0 3 4 1 2 3 0 1 3</string>
+                <key>vertices</key>
+                <string>70 24 47 59 25 59 3 32 0 18 0 0 70 0</string>
+                <key>verticesUV</key>
+                <string>121 565 98 600 76 600 54 573 51 559 51 541 121 541</string>
+            </dict>
+            <key>ScrollBar_Orange_Scroller.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{285,80}</string>
+                <key>spriteSourceSize</key>
+                <string>{285,80}</string>
+                <key>textureRect</key>
+                <string>{{2055,614},{285,80}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>1 3 4 1 2 3 0 1 4</string>
+                <key>vertices</key>
+                <string>285 67 270 80 0 80 0 0 285 0</string>
+                <key>verticesUV</key>
+                <string>2340 681 2325 694 2055 694 2055 614 2340 614</string>
+            </dict>
+            <key>ScrollBar_Pointer.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{70,59}</string>
+                <key>spriteSourceSize</key>
+                <string>{70,59}</string>
+                <key>textureRect</key>
+                <string>{{2383,248},{70,59}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>3 4 5 0 3 5 1 2 3 0 1 3</string>
+                <key>vertices</key>
+                <string>70 32 43 59 20 59 0 19 0 0 70 0</string>
+                <key>verticesUV</key>
+                <string>2453 280 2426 307 2403 307 2383 267 2383 248 2453 248</string>
+            </dict>
+            <key>ScrollBar_Red_Button.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{81,83}</string>
+                <key>spriteSourceSize</key>
+                <string>{81,83}</string>
+                <key>textureRect</key>
+                <string>{{2664,273},{81,83}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>4 5 6 1 2 4 2 3 4 0 1 4 0 4 6</string>
+                <key>vertices</key>
+                <string>81 21 81 62 60 83 21 83 0 62 0 0 60 0</string>
+                <key>verticesUV</key>
+                <string>2745 294 2745 335 2724 356 2685 356 2664 335 2664 273 2724 273</string>
+            </dict>
+            <key>ScrollBar_Scroller.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{285,80}</string>
+                <key>spriteSourceSize</key>
+                <string>{285,80}</string>
+                <key>textureRect</key>
+                <string>{{1768,614},{285,80}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>1 2 3 0 1 3</string>
+                <key>vertices</key>
+                <string>285 80 0 80 0 0 285 0</string>
+                <key>verticesUV</key>
+                <string>2053 694 1768 694 1768 614 2053 614</string>
+            </dict>
+            <key>ScrollBar_WhiteOutline_Base.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{583,74}</string>
+                <key>spriteSourceSize</key>
+                <string>{583,74}</string>
+                <key>textureRect</key>
+                <string>{{124,45},{583,74}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>1 2 3 0 1 3</string>
+                <key>vertices</key>
+                <string>583 74 0 74 0 0 583 0</string>
+                <key>verticesUV</key>
+                <string>707 119 124 119 124 45 707 45</string>
+            </dict>
+            <key>ScrollSlider_Arrow.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{53,66}</string>
+                <key>spriteSourceSize</key>
+                <string>{53,66}</string>
+                <key>textureRect</key>
+                <string>{{698,631},{53,66}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>4 5 6 0 4 6 2 3 4 1 2 4 0 1 4</string>
+                <key>vertices</key>
+                <string>53 66 26 66 0 40 0 23 27 5 37 0 53 0</string>
+                <key>verticesUV</key>
+                <string>751 697 724 697 698 671 698 654 725 636 735 631 751 631</string>
+            </dict>
+            <key>ScrollSlider_Blank_Arrow.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{53,66}</string>
+                <key>spriteSourceSize</key>
+                <string>{53,66}</string>
+                <key>textureRect</key>
+                <string>{{2459,235},{53,66}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>4 5 6 0 4 6 2 3 4 1 2 4 0 1 4</string>
+                <key>vertices</key>
+                <string>53 66 26 66 0 40 0 23 27 5 37 0 53 0</string>
+                <key>verticesUV</key>
+                <string>2512 301 2485 301 2459 275 2459 258 2486 240 2496 235 2512 235</string>
+            </dict>
+            <key>ScrollSlider_WhiteOutline_Arrow.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{60,73}</string>
+                <key>spriteSourceSize</key>
+                <string>{60,73}</string>
+                <key>textureRect</key>
+                <string>{{62,39},{60,73}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>1 4 5 2 3 4 1 2 4 0 1 5</string>
+                <key>vertices</key>
+                <string>60 73 36 73 0 50 0 19 36 0 60 0</string>
+                <key>verticesUV</key>
+                <string>122 112 98 112 62 89 62 58 98 39 122 39</string>
+            </dict>
+            <key>SlimSlider_Background.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{683,59}</string>
+                <key>spriteSourceSize</key>
+                <string>{683,59}</string>
+                <key>textureRect</key>
+                <string>{{1489,553},{683,59}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>1 2 3 0 1 3</string>
+                <key>vertices</key>
+                <string>683 59 0 59 0 0 683 0</string>
+                <key>verticesUV</key>
+                <string>2172 612 1489 612 1489 553 2172 553</string>
+            </dict>
+            <key>SlimSlider_Base.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{576,66}</string>
+                <key>spriteSourceSize</key>
+                <string>{576,66}</string>
+                <key>textureRect</key>
+                <string>{{123,514},{576,66}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>1 2 3 0 1 3</string>
+                <key>vertices</key>
+                <string>576 66 0 66 0 0 576 0</string>
+                <key>verticesUV</key>
+                <string>699 580 123 580 123 514 699 514</string>
+            </dict>
+            <key>SlimSlider_Blue_Background.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{683,59}</string>
+                <key>spriteSourceSize</key>
+                <string>{683,59}</string>
+                <key>textureRect</key>
+                <string>{{1489,492},{683,59}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>1 2 3 0 1 3</string>
+                <key>vertices</key>
+                <string>683 59 0 59 0 0 683 0</string>
+                <key>verticesUV</key>
+                <string>2172 551 1489 551 1489 492 2172 492</string>
+            </dict>
+            <key>SlimSlider_Blue_Button.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{85,85}</string>
+                <key>spriteSourceSize</key>
+                <string>{85,85}</string>
+                <key>textureRect</key>
+                <string>{{2664,1},{85,85}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>1 4 5 2 3 4 1 2 4 0 1 5</string>
+                <key>vertices</key>
+                <string>85 85 22 85 0 63 0 22 22 0 85 0</string>
+                <key>verticesUV</key>
+                <string>2749 86 2686 86 2664 64 2664 23 2686 1 2749 1</string>
+            </dict>
+            <key>SlimSlider_Blue_Frame.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{734,107}</string>
+                <key>spriteSourceSize</key>
+                <string>{734,107}</string>
+                <key>textureRect</key>
+                <string>{{771,376},{734,107}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>13 7 8 10 4 5 12 1 2 11 2 3 12 0 1 11 12 2 10 11 3 10 3 4 9 10 5 9 5 6 7 14 9 7 9 6 13 14 7 0 13 8 0 12 13</string>
+                <key>vertices</key>
+                <string>734 30 734 75 714 101 693 107 11 107 0 68 0 14 42 0 704 0 34 49 56 77 677 76 701 58 679 31 56 31</string>
+                <key>verticesUV</key>
+                <string>1505 406 1505 451 1485 477 1464 483 782 483 771 444 771 390 813 376 1475 376 805 425 827 453 1448 452 1472 434 1450 407 827 407</string>
+            </dict>
+            <key>SlimSlider_Blue_Scroller.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{68,119}</string>
+                <key>spriteSourceSize</key>
+                <string>{68,119}</string>
+                <key>textureRect</key>
+                <string>{{2621,532},{68,119}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>1 2 3 0 1 3</string>
+                <key>vertices</key>
+                <string>68 119 0 119 0 0 68 0</string>
+                <key>verticesUV</key>
+                <string>2689 651 2621 651 2621 532 2689 532</string>
+            </dict>
+            <key>SlimSlider_Button.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{85,85}</string>
+                <key>spriteSourceSize</key>
+                <string>{85,85}</string>
+                <key>textureRect</key>
+                <string>{{2647,358},{85,85}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>1 4 5 2 3 4 1 2 4 0 1 5</string>
+                <key>vertices</key>
+                <string>85 85 22 85 0 63 0 22 22 0 85 0</string>
+                <key>verticesUV</key>
+                <string>2732 443 2669 443 2647 421 2647 380 2669 358 2732 358</string>
+            </dict>
+            <key>SlimSlider_Frame.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{734,107}</string>
+                <key>spriteSourceSize</key>
+                <string>{734,107}</string>
+                <key>textureRect</key>
+                <string>{{771,267},{734,107}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>13 7 8 10 3 4 9 10 4 2 11 12 12 0 1 2 12 1 11 2 3 10 11 3 9 4 5 9 5 6 7 14 9 7 9 6 13 14 7 0 13 8 0 12 13</string>
+                <key>vertices</key>
+                <string>734 30 734 77 704 107 30 107 4 81 0 68 0 17 39 0 704 0 34 49 57 77 676 76 701 58 679 31 55 31</string>
+                <key>verticesUV</key>
+                <string>1505 297 1505 344 1475 374 801 374 775 348 771 335 771 284 810 267 1475 267 805 316 828 344 1447 343 1472 325 1450 298 826 298</string>
+            </dict>
+            <key>SlimSlider_Green_Pointer.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{70,59}</string>
+                <key>spriteSourceSize</key>
+                <string>{70,59}</string>
+                <key>textureRect</key>
+                <string>{{822,60},{70,59}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>3 4 5 0 3 5 1 2 3 0 1 3</string>
+                <key>vertices</key>
+                <string>70 27 45 59 24 59 0 23 0 0 70 0</string>
+                <key>verticesUV</key>
+                <string>892 87 867 119 846 119 822 83 822 60 892 60</string>
+            </dict>
+            <key>SlimSlider_Green_Scoller.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{285,80}</string>
+                <key>spriteSourceSize</key>
+                <string>{285,80}</string>
+                <key>textureRect</key>
+                <string>{{1481,614},{285,80}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>1 2 3 0 1 3</string>
+                <key>vertices</key>
+                <string>285 80 0 80 0 0 285 0</string>
+                <key>verticesUV</key>
+                <string>1766 694 1481 694 1481 614 1766 614</string>
+            </dict>
+            <key>SlimSlider_Orange_Background.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{683,59}</string>
+                <key>spriteSourceSize</key>
+                <string>{683,59}</string>
+                <key>textureRect</key>
+                <string>{{1507,431},{683,59}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>1 2 3 0 1 3</string>
+                <key>vertices</key>
+                <string>683 59 0 59 0 0 683 0</string>
+                <key>verticesUV</key>
+                <string>2190 490 1507 490 1507 431 2190 431</string>
+            </dict>
+            <key>SlimSlider_Orange_Button.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{85,85}</string>
+                <key>spriteSourceSize</key>
+                <string>{85,85}</string>
+                <key>textureRect</key>
+                <string>{{2641,445},{85,85}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>1 4 5 2 3 4 1 2 4 0 1 5</string>
+                <key>vertices</key>
+                <string>85 85 22 85 0 63 0 22 22 0 85 0</string>
+                <key>verticesUV</key>
+                <string>2726 530 2663 530 2641 508 2641 467 2663 445 2726 445</string>
+            </dict>
+            <key>SlimSlider_Orange_Frame.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{734,107}</string>
+                <key>spriteSourceSize</key>
+                <string>{734,107}</string>
+                <key>textureRect</key>
+                <string>{{1533,116},{734,107}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>13 7 8 10 4 5 12 1 2 11 2 3 12 0 1 10 11 3 10 3 4 9 10 5 9 5 6 7 14 9 7 9 6 13 14 7 0 13 8 11 12 2 0 12 13</string>
+                <key>vertices</key>
+                <string>734 38 734 77 710 102 693 107 39 107 0 90 0 32 24 0 722 0 40 50 56 77 678 76 700 59 678 31 58 31</string>
+                <key>verticesUV</key>
+                <string>2267 154 2267 193 2243 218 2226 223 1572 223 1533 206 1533 148 1557 116 2255 116 1573 166 1589 193 2211 192 2233 175 2211 147 1591 147</string>
+            </dict>
+            <key>SlimSlider_Orange_Scroller.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{68,119}</string>
+                <key>spriteSourceSize</key>
+                <string>{68,119}</string>
+                <key>textureRect</key>
+                <string>{{2594,243},{68,119}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>1 3 4 1 2 3 0 1 4</string>
+                <key>vertices</key>
+                <string>68 116 57 119 0 119 0 0 68 0</string>
+                <key>verticesUV</key>
+                <string>2662 359 2651 362 2594 362 2594 243 2662 243</string>
+            </dict>
+            <key>SlimSlider_Red_Button.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{85,85}</string>
+                <key>spriteSourceSize</key>
+                <string>{85,85}</string>
+                <key>textureRect</key>
+                <string>{{2374,614},{85,85}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>0 5 6 3 4 5 0 3 5 1 2 3 0 1 3</string>
+                <key>vertices</key>
+                <string>85 63 63 85 6 85 0 55 0 22 22 0 85 0</string>
+                <key>verticesUV</key>
+                <string>2459 677 2437 699 2380 699 2374 669 2374 636 2396 614 2459 614</string>
+            </dict>
+            <key>SlimSlider_Scroller.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{68,119}</string>
+                <key>spriteSourceSize</key>
+                <string>{68,119}</string>
+                <key>textureRect</key>
+                <string>{{2594,122},{68,119}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>1 2 3 0 1 3</string>
+                <key>vertices</key>
+                <string>68 119 0 119 0 0 68 0</string>
+                <key>verticesUV</key>
+                <string>2662 241 2594 241 2594 122 2662 122</string>
+            </dict>
+            <key>SlimSlider_Scroller_Green.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{68,119}</string>
+                <key>spriteSourceSize</key>
+                <string>{68,119}</string>
+                <key>textureRect</key>
+                <string>{{2594,1},{68,119}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>1 2 3 0 1 3</string>
+                <key>vertices</key>
+                <string>68 119 0 119 0 0 68 0</string>
+                <key>verticesUV</key>
+                <string>2662 120 2594 120 2594 1 2662 1</string>
+            </dict>
+            <key>SlimSlider_WhiteOutline_Frame.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{742,113}</string>
+                <key>spriteSourceSize</key>
+                <string>{742,113}</string>
+                <key>textureRect</key>
+                <string>{{1549,1},{742,113}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>8 6 7 11 3 4 2 13 14 14 0 1 12 13 2 12 2 3 11 12 3 10 11 4 10 4 5 6 9 10 6 10 5 8 9 6 15 8 7 0 15 7 2 14 1 0 14 15</string>
+                <key>vertices</key>
+                <string>742 40 742 98 701 113 18 113 0 76 0 32 32 0 724 0 371 34 59 34 37 54 47 74 72 80 679 80 704 61 681 33</string>
+                <key>verticesUV</key>
+                <string>2291 41 2291 99 2250 114 1567 114 1549 77 1549 33 1581 1 2273 1 1920 35 1608 35 1586 55 1596 75 1621 81 2228 81 2253 62 2230 34</string>
+            </dict>
+            <key>WideSLider_Green_Scroller.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{78,168}</string>
+                <key>spriteSourceSize</key>
+                <string>{78,168}</string>
+                <key>textureRect</key>
+                <string>{{2514,1},{78,168}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>1 2 3 0 1 3</string>
+                <key>vertices</key>
+                <string>78 168 0 168 0 0 78 0</string>
+                <key>verticesUV</key>
+                <string>2592 169 2514 169 2514 1 2592 1</string>
+            </dict>
+            <key>WideSlider_Background.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{716,101}</string>
+                <key>spriteSourceSize</key>
+                <string>{716,101}</string>
+                <key>textureRect</key>
+                <string>{{1507,328},{716,101}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>3 5 6 3 4 5 2 3 6 0 1 2 0 2 6</string>
+                <key>vertices</key>
+                <string>716 33 716 73 698 101 24 101 0 77 0 0 708 0</string>
+                <key>verticesUV</key>
+                <string>2223 361 2223 401 2205 429 1531 429 1507 405 1507 328 2215 328</string>
+            </dict>
+            <key>WideSlider_Blank_Background.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{716,101}</string>
+                <key>spriteSourceSize</key>
+                <string>{716,101}</string>
+                <key>textureRect</key>
+                <string>{{1507,225},{716,101}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>2 4 5 2 3 4 1 2 5 0 1 5</string>
+                <key>vertices</key>
+                <string>716 31 716 101 24 101 0 77 0 0 701 0</string>
+                <key>verticesUV</key>
+                <string>2223 256 2223 326 1531 326 1507 302 1507 225 2208 225</string>
+            </dict>
+            <key>WideSlider_Blank_Background_1.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{683,59}</string>
+                <key>spriteSourceSize</key>
+                <string>{683,59}</string>
+                <key>textureRect</key>
+                <string>{{1,636},{683,59}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>1 5 6 3 4 5 2 3 5 1 2 5 0 1 6</string>
+                <key>vertices</key>
+                <string>683 47 665 59 16 59 0 43 0 5 20 0 683 0</string>
+                <key>verticesUV</key>
+                <string>684 683 666 695 17 695 1 679 1 641 21 636 684 636</string>
+            </dict>
+            <key>WideSlider_Blank_Button.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{131,131}</string>
+                <key>spriteSourceSize</key>
+                <string>{131,131}</string>
+                <key>textureRect</key>
+                <string>{{2381,115},{131,131}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>0 8 9 6 7 8 6 8 5 2 5 8 3 4 5 2 3 5 0 1 2 0 2 8</string>
+                <key>vertices</key>
+                <string>131 35 131 108 88 131 38 131 2 103 0 81 0 36 28 5 48 0 96 0</string>
+                <key>verticesUV</key>
+                <string>2512 150 2512 223 2469 246 2419 246 2383 218 2381 196 2381 151 2409 120 2429 115 2477 115</string>
+            </dict>
+            <key>WideSlider_Blank_Button_1.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{85,85}</string>
+                <key>spriteSourceSize</key>
+                <string>{85,85}</string>
+                <key>textureRect</key>
+                <string>{{2427,1},{85,85}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>0 5 6 3 4 5 0 3 5 1 2 3 0 1 3</string>
+                <key>vertices</key>
+                <string>85 63 63 85 6 85 0 55 0 22 22 0 85 0</string>
+                <key>verticesUV</key>
+                <string>2512 64 2490 86 2433 86 2427 56 2427 23 2449 1 2512 1</string>
+            </dict>
+            <key>WideSlider_Blank_Frame.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{768,155}</string>
+                <key>spriteSourceSize</key>
+                <string>{768,155}</string>
+                <key>textureRect</key>
+                <string>{{1,479},{768,155}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>16 7 8 11 3 4 10 4 5 2 13 14 15 0 1 2 14 1 12 13 2 12 2 3 11 12 3 10 11 4 10 5 6 9 10 6 7 17 9 7 9 6 16 17 7 0 15 16 15 1 14 0 16 8</string>
+                <key>vertices</key>
+                <string>768 34 768 124 723 155 33 155 6 120 0 99 0 31 46 0 726 0 43 50 33 86 50 114 74 123 694 123 727 104 735 70 700 33 69 33</string>
+                <key>verticesUV</key>
+                <string>769 513 769 603 724 634 34 634 7 599 1 578 1 510 47 479 727 479 44 529 34 565 51 593 75 602 695 602 728 583 736 549 701 512 70 512</string>
+            </dict>
+            <key>WideSlider_Blank_Frame_1.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{734,107}</string>
+                <key>spriteSourceSize</key>
+                <string>{734,107}</string>
+                <key>textureRect</key>
+                <string>{{771,158},{734,107}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>13 7 8 10 3 4 9 10 4 2 11 12 12 0 1 2 12 1 11 2 3 10 11 3 9 4 5 9 5 6 7 14 9 7 9 6 13 14 7 0 13 8 0 12 13</string>
+                <key>vertices</key>
+                <string>734 30 734 77 704 107 30 107 4 81 0 68 0 17 39 0 704 0 34 49 57 77 676 76 701 58 679 31 55 31</string>
+                <key>verticesUV</key>
+                <string>1505 188 1505 235 1475 265 801 265 775 239 771 226 771 175 810 158 1475 158 805 207 828 235 1447 234 1472 216 1450 189 826 189</string>
+            </dict>
+            <key>WideSlider_Blank_Scroller.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{78,168}</string>
+                <key>spriteSourceSize</key>
+                <string>{78,168}</string>
+                <key>textureRect</key>
+                <string>{{2541,532},{78,168}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>1 2 3 0 1 3</string>
+                <key>vertices</key>
+                <string>78 168 0 168 0 0 78 0</string>
+                <key>verticesUV</key>
+                <string>2619 700 2541 700 2541 532 2619 532</string>
+            </dict>
+            <key>WideSlider_Blank_Scroller_1.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{68,119}</string>
+                <key>spriteSourceSize</key>
+                <string>{68,119}</string>
+                <key>textureRect</key>
+                <string>{{2571,411},{68,119}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>1 2 3 0 1 3</string>
+                <key>vertices</key>
+                <string>68 119 0 119 0 0 68 0</string>
+                <key>verticesUV</key>
+                <string>2639 530 2571 530 2571 411 2639 411</string>
+            </dict>
+            <key>WideSlider_Blue_Background.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{716,101}</string>
+                <key>spriteSourceSize</key>
+                <string>{716,101}</string>
+                <key>textureRect</key>
+                <string>{{763,588},{716,101}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>2 5 6 3 4 5 2 3 5 1 2 6 0 1 6</string>
+                <key>vertices</key>
+                <string>716 28 716 101 24 101 0 77 0 24 24 0 698 0</string>
+                <key>verticesUV</key>
+                <string>1479 616 1479 689 787 689 763 665 763 612 787 588 1461 588</string>
+            </dict>
+            <key>WideSlider_Blue_Button.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{131,131}</string>
+                <key>spriteSourceSize</key>
+                <string>{131,131}</string>
+                <key>textureRect</key>
+                <string>{{2358,317},{131,131}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>2 7 8 4 6 7 4 5 6 2 4 7 2 3 4 0 1 2 0 2 8</string>
+                <key>vertices</key>
+                <string>131 27 131 105 90 131 11 131 0 81 0 30 30 6 49 0 90 0</string>
+                <key>verticesUV</key>
+                <string>2489 344 2489 422 2448 448 2369 448 2358 398 2358 347 2388 323 2407 317 2448 317</string>
+            </dict>
+            <key>WideSlider_Blue_Frame.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{768,155}</string>
+                <key>spriteSourceSize</key>
+                <string>{768,155}</string>
+                <key>textureRect</key>
+                <string>{{1,322},{768,155}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>16 6 7 4 10 3 2 12 13 14 0 1 2 13 1 11 12 2 11 2 3 10 11 3 4 9 10 9 4 5 8 9 5 6 17 8 6 8 5 16 17 6 15 16 7 0 14 15 14 1 13 0 15 7</string>
+                <key>vertices</key>
+                <string>768 24 768 124 723 155 31 155 0 112 0 19 54 0 716 0 41 51 33 86 52 115 73 123 695 123 728 103 735 69 717 41 693 32 75 32</string>
+                <key>verticesUV</key>
+                <string>769 346 769 446 724 477 32 477 1 434 1 341 55 322 717 322 42 373 34 408 53 437 74 445 696 445 729 425 736 391 718 363 694 354 76 354</string>
+            </dict>
+            <key>WideSlider_Blue_Scroller.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{78,168}</string>
+                <key>spriteSourceSize</key>
+                <string>{78,168}</string>
+                <key>textureRect</key>
+                <string>{{2514,171},{78,168}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>1 2 3 0 1 3</string>
+                <key>vertices</key>
+                <string>78 168 0 168 0 0 78 0</string>
+                <key>verticesUV</key>
+                <string>2592 339 2514 339 2514 171 2592 171</string>
+            </dict>
+            <key>WideSlider_Button.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{131,131}</string>
+                <key>spriteSourceSize</key>
+                <string>{131,131}</string>
+                <key>textureRect</key>
+                <string>{{2250,184},{131,131}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>0 6 7 4 5 6 2 4 6 2 3 4 0 1 2 0 2 6</string>
+                <key>vertices</key>
+                <string>131 35 131 105 90 131 26 131 0 90 0 30 38 0 96 0</string>
+                <key>verticesUV</key>
+                <string>2381 219 2381 289 2340 315 2276 315 2250 274 2250 214 2288 184 2346 184</string>
+            </dict>
+            <key>WideSlider_Frame.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{768,155}</string>
+                <key>spriteSourceSize</key>
+                <string>{768,155}</string>
+                <key>textureRect</key>
+                <string>{{779,1},{768,155}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>16 7 8 11 3 4 10 4 5 2 13 14 15 0 1 2 14 1 12 13 2 12 2 3 11 12 3 10 11 4 10 5 6 9 10 6 7 17 9 7 9 6 16 17 7 0 15 16 15 1 14 0 16 8</string>
+                <key>vertices</key>
+                <string>768 34 768 124 723 155 33 155 6 120 0 99 0 31 46 0 726 0 43 50 33 86 50 114 74 123 694 123 727 104 735 70 700 33 70 33</string>
+                <key>verticesUV</key>
+                <string>1547 35 1547 125 1502 156 812 156 785 121 779 100 779 32 825 1 1505 1 822 51 812 87 829 115 853 124 1473 124 1506 105 1514 71 1479 34 849 34</string>
+            </dict>
+            <key>WideSlider_Orange_Background.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{716,101}</string>
+                <key>spriteSourceSize</key>
+                <string>{716,101}</string>
+                <key>textureRect</key>
+                <string>{{771,485},{716,101}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>3 5 6 3 4 5 2 3 6 0 1 2 0 2 6</string>
+                <key>vertices</key>
+                <string>716 33 716 73 698 101 24 101 0 77 0 0 708 0</string>
+                <key>verticesUV</key>
+                <string>1487 518 1487 558 1469 586 795 586 771 562 771 485 1479 485</string>
+            </dict>
+            <key>WideSlider_Orange_Button.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{131,131}</string>
+                <key>spriteSourceSize</key>
+                <string>{131,131}</string>
+                <key>textureRect</key>
+                <string>{{2225,317},{131,131}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>0 6 7 4 5 6 4 2 3 4 6 2 0 1 2 0 2 6</string>
+                <key>vertices</key>
+                <string>131 41 131 121 83 131 35 131 0 96 0 21 45 0 105 0</string>
+                <key>verticesUV</key>
+                <string>2356 358 2356 438 2308 448 2260 448 2225 413 2225 338 2270 317 2330 317</string>
+            </dict>
+            <key>WideSlider_Orange_Frame.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{768,155}</string>
+                <key>spriteSourceSize</key>
+                <string>{768,155}</string>
+                <key>textureRect</key>
+                <string>{{1,165},{768,155}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>16 7 8 5 10 11 13 1 2 12 2 3 14 0 1 12 13 2 11 12 3 11 3 4 5 11 4 10 5 6 9 10 6 7 17 9 7 9 6 16 17 7 15 16 8 0 15 8 14 1 13 0 14 15</string>
+                <key>vertices</key>
+                <string>768 46 768 123 729 151 709 155 43 155 0 123 0 19 50 0 739 0 41 51 33 85 70 123 696 123 728 103 735 69 718 42 690 32 77 32</string>
+                <key>verticesUV</key>
+                <string>769 211 769 288 730 316 710 320 44 320 1 288 1 184 51 165 740 165 42 216 34 250 71 288 697 288 729 268 736 234 719 207 691 197 78 197</string>
+            </dict>
+            <key>WideSlider_Orange_Scroller.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{78,168}</string>
+                <key>spriteSourceSize</key>
+                <string>{78,168}</string>
+                <key>textureRect</key>
+                <string>{{2491,362},{78,168}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>1 2 3 0 1 3</string>
+                <key>vertices</key>
+                <string>78 168 0 168 0 0 78 0</string>
+                <key>verticesUV</key>
+                <string>2569 530 2491 530 2491 362 2569 362</string>
+            </dict>
+            <key>WideSlider_Red_Button.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{131,131}</string>
+                <key>spriteSourceSize</key>
+                <string>{131,131}</string>
+                <key>textureRect</key>
+                <string>{{2293,1},{131,131}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>2 6 7 2 5 6 2 4 5 2 3 4 0 1 2 0 2 7</string>
+                <key>vertices</key>
+                <string>131 35 131 108 88 131 35 131 0 96 0 35 35 0 96 0</string>
+                <key>verticesUV</key>
+                <string>2424 36 2424 109 2381 132 2328 132 2293 97 2293 36 2328 1 2389 1</string>
+            </dict>
+            <key>WideSlider_Scroller.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{78,168}</string>
+                <key>spriteSourceSize</key>
+                <string>{78,168}</string>
+                <key>textureRect</key>
+                <string>{{2461,532},{78,168}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>1 2 3 0 1 3</string>
+                <key>vertices</key>
+                <string>78 168 0 168 0 0 78 0</string>
+                <key>verticesUV</key>
+                <string>2539 700 2461 700 2461 532 2539 532</string>
+            </dict>
+            <key>WideSlider_WhiteOutline_Frame.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{776,162}</string>
+                <key>spriteSourceSize</key>
+                <string>{776,162}</string>
+                <key>textureRect</key>
+                <string>{{1,1},{776,162}}</string>
+                <key>textureRotated</key>
+                <false/>
+                <key>triangles</key>
+                <string>4 9 10 4 5 9 14 0 1 13 1 2 13 14 1 12 13 2 12 2 3 11 12 3 10 11 3 4 10 3 8 9 5 8 5 6 17 8 6 17 6 7 16 17 7 15 16 7 0 14 15 0 15 7</string>
+                <key>vertices</key>
+                <string>776 30 776 110 749 162 41 162 0 121 0 48 30 0 727 0 45 54 37 90 55 118 82 126 690 126 725 114 738 93 726 60 702 36 74 36</string>
+                <key>verticesUV</key>
+                <string>777 31 777 111 750 163 42 163 1 122 1 49 31 1 728 1 46 55 38 91 56 119 83 127 691 127 726 115 739 94 727 61 703 37 75 37</string>
+            </dict>
+        </dict>
+        <key>metadata</key>
+        <dict>
+            <key>format</key>
+            <integer>3</integer>
+            <key>pixelFormat</key>
+            <string>RGBA8888</string>
+            <key>premultiplyAlpha</key>
+            <false/>
+            <key>realTextureFileName</key>
+            <string>Sliders.png</string>
+            <key>size</key>
+            <string>{2773,701}</string>
+            <key>smartupdate</key>
+            <string>$TexturePacker:SmartUpdate:7298cfeb18d5d1f3d47155e83e0e2a8c:70df61f45b2aa0d92fe5ff5b3ec698f1:cb09aecc9975d0f901de702bf0c3f198$</string>
+            <key>textureFileName</key>
+            <string>Sliders.png</string>
+        </dict>
+    </dict>
+</plist>
